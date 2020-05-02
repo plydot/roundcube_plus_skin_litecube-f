@@ -1,0 +1,334 @@
+/**
+ * Roundcube Framework plugin.
+ *
+ * Copyright 2016, Tecorama LLC.
+ *
+ * @license Commercial. See the LICENSE file for details.
+ */
+
+@import "functions";
+@import "common_elements";
+
+// default: applies to skins with xicons-solid specified or without xicons-* specified (like elastic itself)
+$iconClass: "xelastic";
+@import "icons_map";
+@import "icons_program_elastic";
+@import "icons_plugins";
+
+$iconClass: "xicons-traditional";
+@import "icons_map";
+@import "icons_program_elastic";
+@import "icons_plugins";
+
+$iconClass: "xicons-outlined";
+@import "icons_map";
+@import "icons_program_elastic";
+@import "icons_plugins";
+
+$iconClass: "xicons-material";
+@import "icons_map";
+@import "icons_program_elastic";
+@import "icons_plugins";
+
+$iconClass: "xicons-cartoon";
+@import "icons_map";
+@import "icons_program_elastic";
+@import "icons_plugins";
+
+/* general fixes */
+
+// hide the labels added by the elastic's pretty checkbox function to the checkboxes that shouldn't have them
+input[type='checkbox'].no-switchbox.icon-checkbox + label {
+    display: none;
+}
+
+/* bootstrap corrections */
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 0.3rem 0.75rem;
+}
+
+.table th {
+    border-top: none;
+}
+
+table.plain-table {
+    margin: 0;
+
+    tr {
+        display: table-row !important;
+    }
+
+    td {
+        display: table-cell !important;
+    }
+
+    td, th {
+        border: none;
+    }
+}
+
+table.padded-cells {
+    td, th {
+        padding: 0 5px 5px 5px !important;
+    }
+}
+
+
+
+#xmobile-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* apps menu */
+
+.layout-large,
+.layout-normal {
+    #button-apps:before {
+        margin-top: 5px;
+    }
+}
+
+.layout-normal.touch {
+    #button-apps:before {
+        margin-top: 0;
+    }
+}
+
+#button-apps {
+    &.top {
+        &:before {
+            font-size: 1.8em;
+        }
+
+        span {
+            display: none;
+        }
+    }
+}
+
+#apps-menu {
+    padding: 4px;
+
+    .section-title {
+        margin-bottom: 10px;
+    }
+
+    .section {
+        padding: 5px;
+    }
+
+    #look-and-feel-shortcut {
+        padding-top: 5px;
+
+        a {
+            width: 100%;
+        }
+    }
+
+    #menu-apps-list {
+        a.app-item {
+            display: block;
+            float:left;
+            text-align: center;
+            padding: 3px;
+            width: 33%;
+            color: #333;
+
+            .icon {
+                font-size: 1.8em;
+            }
+
+            .title {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+/* xsidebar */
+
+#xsidebar,
+#xsidebar-mobile-header,
+#taskmenu a#show-mobile-xsidebar {
+    display: none;
+}
+
+#show-xsidebar-item {
+    float: right;
+}
+
+#layout #xsidebar {
+    background: #fff;
+    border-left: 1px solid #d4dbde;
+    overflow-y: hidden;
+
+    #xsidebar-inner {
+        overflow-y: auto;
+        height: 100%;
+    }
+
+    h2.boxtitle {
+        border-bottom: 1px solid #d4dbde;
+    }
+
+    .header {
+        justify-content: left !important;
+        padding-left: 0 !important;
+    }
+}
+
+body.xsidebar-visible {
+    #layout-content {
+        min-width: 0;
+    }
+
+    #show-xsidebar {
+        display: none;
+    }
+
+    #xsidebar-menu {
+        text-align: right;
+    }
+
+    #xsidebar {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        max-width: 18%;
+    }
+}
+
+// small, phone, normal.touch
+html.touch {
+    #taskmenu a#show-mobile-xsidebar {
+        display: block;
+    }
+
+    #xsidebar,
+    #show-xsidebar {
+        display: none !important;
+    }
+
+    body.xsidebar-mobile-visible {
+        #xmobile-overlay {
+            display: block;
+        }
+
+        #xsidebar {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: auto;
+            bottom: 0;
+            width: 50%;
+            max-width: 100%;
+            display: block !important;
+            border-radius: 0;
+            border: none;
+            z-index: 2;
+
+            #xsidebar-mobile-header {
+                display: block;
+                padding: 0 .5em;
+                height: 4.2rem;
+                line-height: 4.2rem;
+                font-size: 1.2rem;
+                color: #fff;
+                background-color: #005984;
+                //border-bottom: 1px solid #d4dbde;
+            }
+
+            .header {
+                display: none;
+            }
+
+            #xsidebar-inner {
+                padding-bottom: 100px; // otherwise can't scroll to the bottom
+            }
+        }
+    }
+}
+
+html.layout-small body.xsidebar-mobile-visible #xsidebar {
+    width: 60%;
+}
+
+html.layout-phone body.xsidebar-mobile-visible #xsidebar {
+    width: 100%;
+}
+
+.floating-action-buttons a.button {
+    background-color: #ddd;
+    box-shadow: 0 0 5px 5px #eee;
+}
+
+/* settings */
+
+#sections-table tr td.section {
+    background-image: none !important;
+}
+
+form.propform .form-group {
+    button.button {
+        margin-bottom: 10px;
+    }
+}
+
+/* popup boxes */
+
+body.xelastic div.xpopup {
+    display: none;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #d4dbde;
+    border-radius: .3rem;
+    box-shadow: 3px 3px 5px #f1f3f4;
+    box-sizing: border-box;
+    height: auto;
+    font-size: 1rem;
+    z-index: 1060;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        padding: 8px 15px;
+        color: #2c363a;
+
+        &:hover {
+            background: #f0f0f0;
+        }
+    }
+
+}

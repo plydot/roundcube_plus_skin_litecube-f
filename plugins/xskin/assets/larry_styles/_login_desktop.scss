@@ -1,0 +1,122 @@
+#login-form #logo {
+    display: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.login-page #topline {
+    display: none;
+}
+
+#login-form .box-inner {
+    background: none;
+    border-radius: 0;
+    border: none;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#login-form table td {
+    padding: 5px;
+}
+
+#login-form table td input[type='text'],
+#login-form table td input[type='email'],
+#login-form table td input[type='password'],
+#login-form table td select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 4px;
+    margin: 0;
+}
+
+#login-form #bottomline {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    visibility: hidden;
+}
+
+#login-form #bottomline a {
+    color: #333;
+    visibility: visible;
+    text-decoration: none;
+    float: left;
+}
+
+#login-form #bottomline a:hover {
+    text-decoration: underline;
+}
+
+#login-form #message div {
+    font-weight: normal;
+
+    &.loading {
+        background: url(../images/loader.svg) no-repeat left center;
+    }
+}
+
+#vendor-branding {
+    position: fixed;
+    bottom: 6px;
+    right: 8px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    z-index: 1;
+    background: #7d7d7d;
+    border-radius: 5px !important;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 0.95em;
+
+    &:hover {
+        background: #cc0000;
+    }
+}
+
+#login-form .box-bottom {
+    background: none;
+}
+
+body.login-page #header {
+    overflow: hidden;
+}
+
+body.login-page #topnav {
+    position: static;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body.login-page #taskbar {
+    margin: 0 !important;
+    padding: 0;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+
+body.login-page #taskbar a {
+    padding: 0 0 0 10px;
+}
+
+#login-form td.title,
+#ifplcontainer {
+    color: #333;
+}
+
+#login-form table {
+    width: 100%;
+}
+
+#login-form td[colspan='2'] {
+    white-space: normal;
+}

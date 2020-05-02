@@ -1,0 +1,42 @@
+Roundcube Plus Free Skins
+=========================
+
+Roundcube Plus free skins add a new look to the Roundcube program. They are simplified versions of their commercial
+counterparts: they don't include the mobile support.
+
+REQUIREMENTS
+------------
+- Roundcube: 1.3.x or 1.4.x
+
+This skin will not work properly on earlier versions or unreleased beta versions of Roundcube.
+
+INSTALLATION
+------------
+1. Copy the contents of the 'plugins' directory included in this package to the 'plugins' directory of your Roundcube
+installation. Follow the instructions found in plugins/xskin/README for installing and configuring the xskin plugin.
+As explained there, you'll need to edit the Roundcube config file to add 'xskin' to the plugins array and specify your
+license key. There are no special steps needed to install xframework. It doesn't need to be added to the plugins array
+
+IMPORTANT: If you already have a full version of any Roundcube Plus skins, do not overwrite the xskin plugin as it will
+cause errors when using your existing skins.
+
+2. Copy the contents of the 'skins' directory included in this package to the 'skins' directory of your Roundcube
+installation.
+
+3. If you'd like to use litecube-f on the Roundcube login screen and as the default skin for the newly created user
+accounts, edit the file [roundcube]/config/config.inc.php, find the line that begins with $config['skin'] and set it to
+'<skin>'. If this line doesn't exist, add it at the end of the file,
+like this:
+
+$config['skin'] = 'litecube-f';
+
+For more information on installing Roundcube Plus plugins see:
+https://roundcubeplus.com/helpdesk/knowledgebase.php?article=29
+
+License
+-------
+The Roundcube Plus free skins are covered by a commercial license agreement (see the file LICENSE for details).
+
+Copyright and credits
+---------------------
+Copyright (c) 2011-2020, Tecorama LLC (https://roundcubeplus.com)

@@ -1,0 +1,399 @@
+/*
+ This file contains icons for the Roundcube program when running an elastic-based Roundcube Plus skin.
+ This file will not load when using the elastic skin; all plugin-related icons that should work in elastic should
+ be in _icons_plugins.scss.
+ */
+
+body.xelastic.xskin.#{$iconClass} {
+    #taskmenu a {
+        &.mail:before { @include style($mail); }
+        &.contacts:before { @include style($user); }
+        &.options:before { @include style($wrench); }
+        &.help:before { @include style($help); }
+        &.logout:before { @include style($logout); }
+        &.about:before { @include style($information); }
+        &.refresh:before { @include style($refresh); }
+        &.compose:before { @include style($create); }
+        &.calendar:before { @include style($calendar); }
+        &.tasklist:before { @include style($list); }
+        &.files:before { @include style($textFile); }
+        &.notes:before { @include style($textFile); }
+    }
+
+    .menu a {
+        &.reply:before { @include style($reply); }
+        &.reply-all:before { @include style($replyAll); }
+        &.forward:before { @include style($forward); }
+        &.delete:before { @include style($trash); }
+        &.markmessage:before { @include style($tag); }
+        &.more:before { @include style($more); }
+        &.read:before { @include style($envelopeOpen); }
+        &.unread:before,
+        &.expand.unread:before,
+        &.select.unread:before{ @include style($envelopeClosed); }
+
+        &.flag:before { @include style($flag); }
+        &.unflag:before { @include style($flagEmpty); }
+        &.dropdown:before { @include style($chevronDown); }
+        &.options:before { @include style($gear); }
+        &.settings:before { @include style($wrench); }
+        &.create:before { @include style($create); }
+        &.move:before { @include style($move); }
+        &.purge:before { @include style($trash); }
+        &.print:before { @include style($print); }
+        &.search:before { @include style($search); }
+        &.folders:before { @include style($folder); }
+        &.upload:before,
+        &.import:before { @include style($import); }
+        &.download:before,
+        &.export:before { @include style($export); }
+        &.compose:before { @include style($create); }
+        &.archive:before { @include style($archive); }
+        &.junk:before { @include style($junk); }
+        &.expunge:before { @include style($compress); }
+        &.enigma:before,
+        &.encrypt:before { @include style($lock); }
+        &.firstpage:before { @include style($firstPage); }
+        &.prev:before { @include style($prevPage); }
+        &.next:before { @include style($nextPage); }
+        &.prevpage:before { @include style($prevPage); }
+        &.nextpage:before { @include style($nextPage); }
+        &.lastpage:before { @include style($lastPage); }
+        &.send:before { @include style($send); }
+        &.send.schedule:before { @include style($emailSchedule); }
+        &.scheduled:before { @include style($scheduleList); }
+        &.back:before { @include style($arrowBack); }
+        &.closewin:before { @include style($times); }
+        &.save:before { @include style($save); }
+        &.vcard:before,
+        &.attach:before { @include style($attachment); }
+        &.spellcheck:before { @include style($spellcheck); }
+        &.signature:before { @include style($signature); }
+        &.responses:before { @include style($bookmark); }
+        &.select:before { @include style($checkSquare); }
+        &.threads:before { @include style($speechBubble); }
+        &.actions:before { @include style($gear); }
+        &.refresh:before { @include style($refresh); }
+        &.addto:before { @include style($addUser); }
+        &.addcc:before { @include style($addUser); }
+        &.addbcc:before { @include style($addUser); }
+        &.addressbook:before { @include style($addressBook); }
+        &.expand:before { @include style($caretDown); }
+        &.collapse:before { @include style($caretUp); }
+        &.submit:before { @include style($check); }
+        &.edit:before { @include style($edit); }
+        &.qrcode:before { @include style($qrcode); }
+        &.properties:before { @include style($textFile); }
+        &.zoomin:before { @include style($zoomIn); }
+        &.zoomout:before { @include style($zoomOut); }
+        &.rotate:before { @include style($refresh); }
+        &.markasjunk2:before { @include style($junk); }
+        &.markasjunk2Sel:before { @include style($junk); }
+        &.markasnotjunk2:before { @include style($notjunk); }
+        &#tb_label_popuplink:before { @include style($labelDots); }
+        &.source:before { @include style($code); }
+        &.copy:before { @include style($copy); }
+        &.extwin:before { @include style($newWindow); }
+        &.selection:before { @include style($checkSquare, false, true); }
+        &.select.all:before { @include style($gridSmall); }
+        &.select.none:before { @include style($times); }
+        &.select.page:before { @include style($bars); }
+        &.select.flagged:before { @include style($flag); }
+        &.select.unread:before { @include style($envelopeClosed); }
+        &.select.invert:before { @include style($circleEmpty); }
+        &.recipient:before { @include style($envelopeClosed); }
+    }
+
+    .toolbarmenu li {
+        a.print:before { @include style($print); }
+        a.move:before { @include style($move); }
+        a.purge:before { @include style($trash); }
+        a.download:before { @include style($download); }
+        a.create:before { @include style($create); }
+        a.edit:before { @include style($edit); }
+        a.edit.asnew:before { @include style($edit); }
+        a.rename:before { @include style($edit); }
+        a.filterlink:before { @include style($filter); }
+        a.reply.list:before,
+        a.reply.all:before { @include style($replyAll); }
+        a.forward:before,
+        a.forward.bounce:before,
+        a.forward.attachment:before,
+        a.forward.inline:before { @include style($forward); }
+        a.download.mbox:before,
+        a.download.eml:before,
+        a.download.maildir:before { @include style($download); }
+        a.export.selection:before,
+        a.export.all:before { @include style($download); }
+        a.expand.all:before,
+        a.expand.unread:before,
+        a.expand.none:before { @include style($speechBubble); }
+        a.search:before { @include style($search); }
+        a.delete:before { @include style($trash); }
+        a.import:before { @include style($import); }
+        a.settings:before { @include style($wrench); }
+        a.insertresponse:before { @include style($speechBubble); }
+        a.compose:before { @include style($create); }
+        a.addressbook:before { @include style($user); }
+        a.status:before { @include style($lightbulb); }
+        a.remove:before { @include style($times); }
+        a.showurl:before { @include style($link); }
+        a.qrcode:before { @include style($qrcode); }
+        a.assigngroup:before { @include style($addUser); }
+        a.removegroup:before { @include style($removeUser); }
+        a.vcard:before { @include style($attachment); }
+        a.encrypt:before { @include style($lock); }
+        a.encrypt.sign:before { @include style($lock); }
+    }
+
+    #message-header {
+        .subject a.extwin:before { @include style($newWindow); }
+        .short-header div.header-links a {
+            &.envelope:before { @include style($envelopeClosed); }
+            &.html:before { @include style($code); }
+            &.plain:before { @include style($bars); }
+            &.zipdownload:before { @include style($download); }
+        }
+    }
+
+    .toolbar a.button.search:before { @include style($search); }
+
+    .header a {
+        &.refresh:before { @include style($refresh); }
+        &.sidebar-menu:before { @include style($verticalMenu); }
+    }
+
+    .messagelist {
+        tr.thread td.threads div:before { @include style($chevronRight); }
+        tr.thread.expanded td.threads div:before  { @include style($chevronDown); }
+        //td.subject span.msgicon.status:before  { @include style($circleEmpty); }
+        //td.subject span.msgicon.status.unread:before  { @include style($star); }
+        td.subject span.msgicon.status.unreadchildren:before  { @include style($star); }
+        td.subject span.msgicon.status.replied:before  { @include style($reply); }
+        td.subject span.msgicon.status.forwarded:before  { @include style($forward); }
+        td.subject span.msgicon.status.replied.forwarded:before  { @include style($repliedForwarded); }
+        tr.deleted td.subject span.msgicon.status:before  { @include style($forbidden); }
+
+        span.attachment span {
+            &:before { @include style($attachment); }
+            &.report:before { @include style($textFile); }
+            &.encrypted:before { @include style($lock); }
+            &.vcard:before { @include style($user); }
+        }
+
+        span.flagged:before { @include style($flag); }
+        tr:hover span.unflagged:before { @include style($flag); }
+    }
+
+    // not using this because we don't have all the file types; it doesn't look good if show some icons but not others
+    //.attachmentslist li {
+    //    &.image:before,
+    //    &.jpg:before,
+    //    &.jpeg:before,
+    //    &.png:before { @include style($picture); }
+    //}
+
+    .listing.iconized.selectable li a:before { content: ""; }
+    .listing.iconized.selectable li a.selected:before { @include style($check); }
+
+    .listing.iconized li {
+        &.preferences > a:before { @include style($wrench); }
+        &.folders > a:before { @include style($folder); }
+        &.responses > a:before { @include style($speechBubble); }
+        &.identities > a:before { @include style($vcard); }
+        &.password > a:before { @include style($lock); }
+        &.addressbook a:before { @include style($addressBook); }
+        &.contactgroup a:before { @include style($users); }
+        &.contactsearch a:before { @include style($search); }
+        &.filter > a:before { @include style($filter); }
+        &.vacation > a:before { @include style($clock); }
+        &.forward > a:before { @include style($forward); }
+        &.enigma.keys > a:before { @include style($key); }
+        &.userinfo > a:before { @include style($userCircle); }
+        &.twofactorauth > a:before { @include style($login); }
+        a.help:before { @include style($help); }
+        a.about:before { @include style($information); }
+        a.license:before { @include style($shield); }
+        & > i:before { @include style($user); }
+        &.group > i:before { @include style($users); }
+    }
+
+    .listing.iconized tr {
+        &.contact.person td.name:before { @include style($user); }
+        &.contact.group td.name:before { @include style($users); }
+        &.general > td.section:before { @include style($monitor); }
+        &.mailbox > td.section:before { @include style($envelopeClosed); }
+        &.mailview > td.section:before { @include style($inbox); }
+        &.compose > td.section:before { @include style($edit); }
+        &.addressbook > td.section:before { @include style($addressBook); }
+        &.folders > td.section:before { @include style($folder); }
+        &.server > td.section:before { @include style($disk); }
+        &.enigma > td.section:before { @include style($lock); }
+        &.calendar > td.section:before { @include style($calendar); }
+    }
+
+    .input-group .icon {
+        &.user:before { @include style($user); }
+        &.pass:before { @include style($lock); }
+        &.host:before { @include style($home); }
+        &.cancel:before { @include style($times); }
+        &.delete:before { @include style($trash); }
+        &.edit:before { @include style($edit); }
+        &.add:before { @include style($plus); }
+        &.add.recipient:before { @include style($users); }
+        &.search:before { @include style($search); }
+        &.filter:before { @include style($filter); }
+        &.key:before { @include style($lock); }
+    }
+
+    .contactlist {
+        td.contact:before { @include style($user); }
+        td.contactgroup:before { @include style($users); }
+
+        li {
+            a.addressbook::before { @include style($addressBook); }
+            a.contactgroup::before { @include style($users); }
+        }
+    }
+
+    .searchbar {
+        form:before { @include style($search); position: relative; top: 3px; }
+        a.unread:before { @include style($envelopeClosed); }
+        a.options:before { @include style($chevronDown); }
+        &.open a.options:before { @include style($chevronUp); }
+        a.reset:before { @include style($times); }
+    }
+
+    ul.treelist li div.treetoggle {
+        &:before { @include style($chevronRight); }
+        &.expanded:before { @include style($chevronDown); }
+    }
+
+    .folderlist li {
+        a:before { @include style($folder); }
+        &.inbox > a:before { @include style($inbox); }
+        &.trash a:before { @include style($trash); }
+        &.trash.empty > a:before { @include style($trash); }
+        &.drafts a:before { @include style($edit); }
+        &.sent a:before { @include style($send); }
+        &.junk a:before { @include style($junk); }
+        &.archive > a:before { @include style($archive); }
+        &.type-event > a:before { @include style($calendar); }
+        &.type-task > a:before { @include style($calendarShort); }
+        &.type-journal > a:before { @include style($calendar); }
+        &.type-contact > a:before { @include style($addressBook); }
+        &.type-note > a:before { @include style($textFile); }
+        &.type-configuration > a:before { @include style($gear); }
+        &.type-freebusy > a:before { @include style($calendar); }
+        &.type-file > a:before { @include style($textFile); }
+    }
+
+    a.button.icon,
+    button.btn {
+        &.toolbar-menu-button:before { @include style($verticalMenu); }
+        &.task-menu-button:before { @include style($bars); }
+        &.back-sidebar-button:before,
+        &.back-content-button:before,
+        &.back-list-button:before { @include style($chevronLeft); }
+        &.generate:before,
+        &.yes:before,
+        &.submit:before,
+        &.continue:before,
+        &.save:before { @include style($check); }
+        &.create:before { @include style($create); }
+        &.edit:before { @include style($edit); }
+        &.qrcode:before { @include style($qrcode); }
+        &.search:before { @include style($search); }
+        &.filter:before { @include style($filter); }
+        &.import:before { @include style($import); }
+        &.export:before { @include style($export); }
+        &.discard:before,
+        &.delete:before { @include style($trash); }
+        &.next:before { @include style($nextPage); }
+        &.restore:before { @include style($undo); }
+        &.send:before,
+        &.bounce:before { @include style($send); }
+        &.attach:before { @include style($attachment); }
+        &.no:before,
+        &.close:before,
+        &.cancel:before { @include style($times); }
+        &.mark:before { @include style($star); }
+        &.back:before { @include style($chevronLeft); }
+        &.remove:before { @include style($times); }
+        &.unlock:before { @include style($lock); }
+        &.help:before { @include style($help); }
+        &.toggleselect:before { @include style($check); }
+        &.folders:before { @include style($folder); }
+        &.tools:before,
+        &.settings:before { @include style($wrench); }
+        &.dropdown:before { @include style($caretDown); }
+    }
+
+    .multi-input a.icon.reset:before { @include style($trash); }
+    .tagedit-list li.tagedit-listelement-old {
+        a:before { @include style($times); }
+    }
+
+    .googie_list td {
+        .googie_list_revert:before { @include style($plus); }
+        .googie_add_to_dict:before { @include style($plus); }
+    }
+
+    #identities-table td.mail:before { @include style($vcard); }
+    #responses-table td.name:before { @include style($speechBubble); }
+    #filterslist td.name:before { @include style($filter); }
+    #filtersetslist td.name:before { @include style($textFile); }
+
+    .attachmentslist li {
+        a.cancelupload:before,
+        a.delete:before { @include style($times); }
+    }
+
+    .message-part,
+    .message-htmlpart {
+        blockquote span.blockquote-link {
+            &:after { @include style($chevronDown); }
+            &.collapsed:after { @include style($chevronUp); }
+        }
+    }
+
+    .ui-dialog .ui-dialog-titlebar-close:before { @include style($times); }
+
+    .image-tools &.open a.button.icon.tools:before { @include style($chevronLeft); }
+
+    .listing td.action a.pushgroup:before { @include style($chevronRight); }
+
+    .popupmenu.toolbar.listing {
+        .dropbutton a.button.dropdown:before { @include style($chevronRight); }
+    }
+
+    .pgpkeyimport {
+        div.key label.keyid + a:before { @include style($key); }
+        li.uid:before { @include style($user); }
+    }
+
+    .propform td.rowbuttons {
+        a:before { @include style($plus); }
+        &.delete:before { @include style($trash); }
+        &.advanced:before { @include style($gear); }
+    }
+
+    .floating-action-buttons a.button:before { @include style($plus, 2); }
+
+    p.image-attachment .attachment-links {
+        a.open:before { @include style($newWindow); }
+        a.download:before { @include style($download); }
+    }
+
+    .table-widget table.options-table {
+        td.enabled span:before { @include style($check); }
+        td.partial span:before { @include style($check); }
+    }
+
+    table.table th.checkbox-cell {
+        &.subscription:before { @include style($rss); }
+        &.alarm:before { @include style($bell); }
+        &.read:before { @include style($eye); }
+        &.write:before { @include style($edit); }
+    }
+}

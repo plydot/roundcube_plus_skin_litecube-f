@@ -1,0 +1,234 @@
+/*
+ This file contains icons for the Roundcube program when running a larry-based Roundcube Plus skin.
+ */
+
+body.xlarry.xskin.#{$iconClass} {
+    &.xdesktop {
+        #taskbar a:before { @include style($generic, 1.5); } // default icon and size for taskbar
+        #taskbar a.button-mail:before { @include style($mail); }
+        #taskbar a.button-addressbook:before { @include style($user); }
+        #taskbar a.button-calendar:before { @include style($calendar); }
+        #taskbar a.button-help:before { @include style($help); }
+        #taskbar a.button-xresell:before { @include style($plusSquare); }
+        #taskbar a.button-apps:before { @include style($plusSquare); }
+        #taskbar a.button-settings:before { @include style($wrench); }
+        #taskbar a.button-logout:before { @include style($logout); }
+        #topnav a.button-interface-options:before { @include style($monitor); }
+        #taskbar .minmodetoggle:before { @include style($caretUp); }
+        #topnav a.button-cloud:before { @include style($cloud); }
+        #topnav a.button-tasklist:before { @include style($spellcheck); }
+        #topnav a.button-cpwebmail:before { @include style($cPanel); }
+
+        .toolbar a.button:before { @include style($generic); } // default icon and size for toolbar
+        .toolbar a.button.checkmail:before { @include style($refresh); }
+        .toolbar a.button.compose:before { @include style($create); }
+        .toolbar a.button.reply:before { @include style($reply); }
+        .toolbar a.button.reply-all:before { @include style($replyAll); }
+        .toolbar a.button.forward:before { @include style($forward); }
+        .toolbar a.button.delete:before { @include style($trash); }
+        .toolbar a.button.archive:before { @include style($archive); }
+        .toolbar a.button.junk:before { @include style($junk); }
+        .toolbar a.button.markmessage:before { @include style($tag); }
+        .toolbar a.button.more:before { @include style($more); }
+        .toolbar a.button.back:before { @include style($arrowBack); }
+        .toolbar a.button.close:before { @include style($arrowBack); }
+        .toolbar a.button.download:before { @include style($download); }
+        .toolbar a.button.move:before { @include style($folder); }
+        .toolbar a.button.print:before { @include style($print); }
+        .toolbar a.button.send:before { @include style($send); }
+        .toolbar a.button.send.schedule:before { @include style($emailSchedule); }
+        .toolbar a.button.scheduled:before { @include style($scheduleList); }
+        .toolbar a.button.savedraft:before { @include style($save); }
+        .toolbar a.button.spellcheck:before { @include style($spellcheck); }
+        .toolbar a.button.attach:before { @include style($attachment); }
+        .toolbar a.button.insertsig:before { @include style($signature); }
+        .toolbar a.button.responses:before { @include style($bookmark); }
+        .toolbar a.button.vcard_send:before { @include style($vcard); }
+        .toolbar a.button.import:before { @include style($import); }
+        .toolbar a.button.export:before { @include style($export); }
+        .toolbar a.button.search:before { @include style($search); }
+        .toolbar a.button.markasjunk2:before { @include style($junk); }
+        .toolbar a.button.markasjunk2Sel:before { @include style($junk); }
+        .toolbar a.button.markasnotjunk2:before { @include style($notjunk); }
+        .toolbar a.button.enigma:before { @include style($lock); }
+        .toolbar a.button.encrypt:before { @include style($lock); }
+        .toolbar a.button.message-list-sort:before { @include style($sortAsc); }
+        .toolbar a#tb_label_popuplink:before { @include style($labelDots); }
+
+        .toolbarmenu.selectable li a.selected:before { @include style($check); }
+        .dropbutton .dropbuttontip:before { @include style($caretDown); }
+        div.expanded:before { @include style($minus); }
+        div.collapsed:before { @include style($plus); }
+        a.menuselector:after { @include style($caretDown); }
+
+        $footerIconSize: 1.6; // not using default because some footer links don't have icons
+        .boxfooter .listbutton.groupactions:before { @include style($gear, $footerIconSize); }
+        .boxfooter .listbutton.add:before { @include style($plus, $footerIconSize); }
+        .boxfooter .listbutton.delete:before { @include style($times, $footerIconSize); }
+        .boxfooter .listbutton.removegroup:before { @include style($unlink, $footerIconSize); }
+
+        .boxpagenav a.icon.firstpage:before { @include style($firstPage); }
+        .boxpagenav a.icon.lastpage:before { @include style($lastPage); }
+        .boxpagenav a.icon.prevpage:before { @include style($prevPage); }
+        .boxpagenav a.icon.nextpage:before { @include style($nextPage); }
+        .compose-headers .iconbutton.cancel:before { @include style($times); }
+        .records-table tr td.threads div.listmenu:before,
+        .records-table tr th.threads a.listmenu:before { @include style($gear); }
+        .records-table thead tr .status span.status:before { @include style($star); }
+        .records-table thead tr .priority span.priority:before { @include style($exclamation); }
+        .messagelist tr:hover td.status span:before { @include style($star); color: #bbb !important; }
+        .messagelist tr:hover .flag span:before { @include style($flag); color: #bbb; }
+        .messagelist tr .status span.unread:before { @include style($star); }
+        .messagelist tr .flag span.flagged:before { @include style($flag); }
+        .messagelist tr .attachment span.attachment:before { @include style($attachment); }
+        .messagelist tr .attachment span.report:before { @include style($textFile); }
+        .messagelist tr .priority span.prio1:before { @include style($arrowUpCircle); }
+        .messagelist tr .priority span.prio2:before { @include style($arrowUpCircle); }
+        .messagelist tr .priority span.prio4:before { @include style($arrowDownCircle); }
+        .messagelist tr .priority span.prio5:before { @include style($arrowDownCircle); }
+        .messagelist tr td.status span.deleted:before { @include style($times); }
+        .messagelist tr td.status span.unreadchildren:before { @include style($star); }
+        .messagelist tr td.subject span.deleted:before { @include style($times); }
+        .messagelist tr td.subject span.unread:before { @include style($star); }
+        .messagelist tr td.subject span.replied:before { @include style($reply); }
+        .messagelist tr td.subject span.forwarded:before { @include style($forward); }
+        .messagelist tr td.subject span.replied.forwarded:before { @include style($repliedForwarded); }
+        .messagelist tr td.subject span.unreadchildren:before { @include style($star); }
+        .records-table thead tr .sortedASC a:after { @include style($sortAsc); }
+        .records-table thead tr .sortedDESC a:after { @include style($sortDesc); }
+        #messagestack div:after { @include style($exclamation); }
+        #messagestack div.error:after { @include style($times); }
+        #messagestack div.warning:after { @include style($exclamation); }
+        #messagestack div.confirmation:after { @include style($check); }
+        #searchmenulink:before { @include style($search); }
+        #quicksearchbar #searchmenulink:before { @include style($search$caretDown); white-space: nowrap; }
+        #searchreset:before { @include style($times); }
+        #maillistmode:before { @include style($bars "    "); }
+        #mailthreadmode:before { @include style($speechBubble); }
+        .fullheight #mailpreviewtoggle:before { @include style($arrowUp); }
+        #mailpreviewtoggle:before { @include style($arrowDown); }
+        #custom-login-submit:before { @include style($arrowRightCircle); }
+
+        #xsidebar-button:before { @include style($caretRight); }
+        &.xsidebar-visible #xsidebar-button:before { @include style($caretLeft); }
+
+        .mailbox > a:before { @include style($folder); }
+        .mailbox.inbox > a:before { @include style($inbox); }
+        .mailbox.sent > a:before { @include style($folder); }
+        .mailbox.drafts > a:before { @include style($create); }
+        .mailbox.trash > a:before { @include style($trash); }
+        .mailbox.archive > a:before { @include style($archive); }
+        .mailbox.junk > a:before { @include style($junk); }
+        .mailbox.spam > a:before { @include style($junk); }
+
+        // plugins
+        #helptoolbar a.button.help:before { @include style($help); }
+        #helptoolbar a.button.about:before { @include style($question); }
+        #helptoolbar a.button.license:before { @include style($list); }
+        #notestoolbar a.button#newnote:before { @include style($create); }
+        #notestoolbar a.button#addnote:before { @include style($export); }
+        .edit-alarm-buttons a.add-alarm:before { @include style($plusCircle); }
+        .edit-alarm-buttons a.delete-alarm:before { @include style($minusCircle); }
+    }
+
+    &.xdesktop.minimal #taskbar .minmodetoggle:before { @include style($caretDown); }
+
+    &.xdesktop.xvertical-preview {
+        .fullheight #mailpreviewtoggle:before { @include style($arrowLeft); }
+        #mailpreviewtoggle:before { @include style($arrowRight); }
+    }
+
+    &.skin-icloud #login-form {
+        .support-link:after { @include style($question); }
+        .box-bottom #message div.warning:before { @include style($exclamation); }
+        .box-bottom #message div.error:before { @include style($exclamation); }
+        .box-bottom #message div.loading:before { @include style($information); }
+        .box-bottom #message div.notice:before { @include style($information); }
+    }
+
+    &.xmobile {
+        #main-menu a span:before { @include style($generic, 2); }
+        #main-menu #button-taskbar span:before { @include style($bars); }
+        #main-menu #button-mail-back span:before { @include style($arrowLeftCircle); }
+        #main-menu #button-compose-settings span:before { @include style($gear); }
+        #main-menu #button-send span:before { @include style($send); }
+        #main-menu #button-reply span:before { @include style($reply); }
+        #main-menu #button-toolbar span:before { @include style($options); }
+        #main-menu #button-format span:before { @include style($code); }
+        #main-menu #button-compose span:before { @include style($create); }
+        #main-menu #button-users span:before { @include style($user); }
+        #main-menu #button-folders span:before { @include style($folder); }
+        #main-menu #button-mail span:before { @include style($options); }
+        #main-menu #button-funnel span:before { @include style($gear); }
+        .popup-close a:before  { @include style($chevronLeftCircle, 2); }
+        .toolbarmenu.selectable li a.selected:before { @include style($check); }
+
+        #mailboxlist li div.collapsed:before,
+        #directorylist li.addressbook div.collapsed:before,
+        div.collapsed:before { @include style($caretRight, 2); }
+
+        #mailboxlist li div.expanded:before,
+        #directorylist li.addressbook div.expanded:before,
+        div.expanded:before { @include style($caretDown, 2); }
+
+        #messagelist td.subject:before { @include style($check); }
+        #messagelist td.flag span.flagged:before { @include style($flag); }
+        #messagelist td.status span.unread:before { @include style($star); }
+        #messagelist td.attachment span.attachment:before { @include style($attachment); }
+        #messagelist td.attachment span.report:before { @include style($textFile); }
+        #messagelist td.subject span.msgicon.replied:before { @include style($reply); }
+        #messagelist td.subject span.msgicon.forwarded:before { @include style($forward); }
+        #messagelist td.subject span.msgicon.replied.forwarded:before { @include style($repliedForwarded); }
+        .moreheaderstoggle.remove .iconlink:before { @include style($chevronUp); }
+        .moreheaderstoggle .iconlink:before { @include style($chevronDown); }
+        #full-headers .more-headers.show-headers:before { @include style($chevronDownCircle); }
+        #full-headers .more-headers.hide-headers:before { @include style($chevronUpCircle); }
+        #attachment-list .delete:before { @include style($times); }
+        #attachment-list .drop:before { @include style($chevronDownCircle); }
+        .rcmaddcontact:before { @include style($user); }
+        .settings-button:nth-child(3) span:before  { @include style($wrench); }
+        .settings-button:nth-child(4) span:before  { @include style($gridLarge); }
+        #messagestack div:after { @include style($exclamation); }
+        #messagestack div.error:after { @include style($times); }
+        #messagestack div.warning:after { @include style($exclamation); }
+        #messagestack div.confirmation:after { @include style($check); }
+        #messagestack div.loading:after { content: ""; }
+        a.firstpage:before { @include style($firstPage); }
+        a.prevpage:before { @include style($prevPage); }
+        a.nextpage:before { @include style($nextPage); }
+        a.lastpage:before { @include style($lastPage); }
+        #messageheader .pagenav a.prevpage:before { @include style($arrowUp); }
+        #messageheader .pagenav a.nextpage:before { @include style($arrowDown); }
+        #login-menu-button:before { @include style($bars); }
+        #custom-login-submit:before { @include style($arrowRightCircle); }
+
+        #groupoptionslink span.inner:before  { @include style($gear); }
+        #keyoptionslink span.inner:before  { @include style($gear); }
+        a.listbutton.add span.inner:before { @include style($plus); }
+        a.listbutton.delete span.inner:before { @include style($minus); }
+        a.listbutton.removegroup span.inner:before { @include style($unlink); }
+
+        #quotadisplay:before { @include style($disk); }
+
+        /* gestures */
+        .message-action-links a.mal-flag:before { @include style($flagEmpty); }
+        .message-action-links a.mal-unflag:before { @include style($flag); }
+        .message-action-links a.mal-more:before { @include style($bars); }
+        .message-action-links a.mal-delete:before { @include style($times); }
+        .message-action-read:before { @include style($envelopeClosed); }
+        .message-action-read.unread:before { @include style($envelopeOpen); }
+        #mainscreen.refresh:before { @include style($refresh); }
+        #mainscreen.progress:before { @include style($refresh); }
+        #mailview-right.gesture-pan.prev:before  { @include style($arrowLeft); }
+        #mailview-right.gesture-pan.next:before  { @include style($arrowRight); }
+        #mailview-right.gesture-pan.disabled:before  { @include style($forbidden); }
+
+        /* plugins */
+        #filtersetmenulink:before,
+        #filtermenulink:before { @include style($gear); }
+
+        #helptoolbar a.button.help:before  { @include style($help); }
+        #helptoolbar a.button.about:before  { @include style($question); }
+        #helptoolbar a.button.license:before  { @include style($list); }
+    }
+}

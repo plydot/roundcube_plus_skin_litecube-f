@@ -1,0 +1,2285 @@
+* {
+  border-radius: 0 !important; }
+
+body,
+select,
+input,
+textarea,
+.ui-widget,
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+  font-size: 12px;
+  font-family: 'Oxygen', sans-serif; }
+
+#remote-objects-message a.button {
+  border-width: 1px !important;
+  border-style: solid !important; }
+
+body div.ui-dialog div.ui-dialog-titlebar button.ui-dialog-titlebar-close {
+  background-color: transparent !important;
+  border: none !important; }
+  body div.ui-dialog div.ui-dialog-titlebar button.ui-dialog-titlebar-close:hover {
+    background-color: transparent !important; }
+
+input.button.mainaction {
+  font-weight: bold; }
+
+.toolbarmenu.selectable li a.selected {
+  padding-left: 17px; }
+  .toolbarmenu.selectable li a.selected:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: absolute;
+    left: -8px;
+    padding-top: 3px; }
+
+.toolbar a.button {
+  border: none;
+  font-size: 11px;
+  padding-top: 24px; }
+
+.formbuttons input.button:active {
+  background-image: none !important; }
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.buttons a.button,
+input.button,
+.formbuttons input.button,
+input.button.mainaction,
+input.button.mainaction:active,
+#login-form input.button {
+  color: #333;
+  border: 1px solid #ddd; }
+
+#mainscreen {
+  top: 76px; }
+
+#mainscreen .toolbar a:hover {
+  background-color: transparent !important; }
+
+#messageheader a.button {
+  background-color: #fff !important; }
+
+#messageheader a.button.selected {
+  background-color: #ccc !important; }
+
+body.xlarry.xskin .mailbox > a:before {
+  display: none; }
+
+/* layout */
+#topline,
+#topline, .minimal #topline,
+#topnav {
+  background: #fff; }
+
+#topnav,
+.minimal #topnav {
+  padding: 5px 0 0 0;
+  height: 34px;
+  margin: 0;
+  background: #fff;
+  border-bottom: 2px solid #ddd;
+  top: 0; }
+
+#topnav img {
+  position: absolute;
+  left: 8px;
+  top: -6px; }
+
+#taskbar a,
+.minimal #taskbar a,
+#taskbar #interface-options-button {
+  display: inline-block;
+  height: 20px;
+  padding: 8px 8px 4px 0;
+  margin: 1px 5px 0 0;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  float: left; }
+
+.minimal #taskbar .button-logout {
+  padding-right: 6px !important; }
+.minimal #taskbar .button-apps,
+.minimal #taskbar .button-help {
+  padding-right: 4px !important; }
+
+#taskbar a.button-selected {
+  height: 22px;
+  border: 2px solid #ddd;
+  border-bottom: none;
+  margin-top: 0; }
+
+#header #topnav #taskbar a.button-selected {
+  background-color: #fff !important; }
+
+#taskbar a:hover {
+  background-color: transparent; }
+
+#taskbar a span.button-inner {
+  font-size: 100%;
+  font-weight: bold;
+  text-shadow: none;
+  padding: 0 0 0 34px;
+  height: 19px;
+  color: #333; }
+
+#header {
+  min-height: 60px; }
+
+.minimal #taskbar a:hover .tooltip {
+  top: 32px; }
+
+select.deco {
+  font-size: 1em; }
+
+#mailboxlist li.mailbox .unreadcount,
+#mailboxlist li.mailbox.selected > a .unreadcount {
+  background: #fff;
+  border-radius: 5px !important;
+  color: #333;
+  font-weight: normal; }
+
+.boxfooter .listbutton {
+  padding: 0;
+  margin: 0; }
+
+#quotadisplay {
+  top: 8px; }
+
+table.quota-info td,
+table.quota-info th {
+  color: #333; }
+
+.uibox .boxtitle,
+.uibox .listing thead td,
+.uibox .listing thead th {
+  color: #333 !important; }
+
+.iframebox {
+  border: none; }
+
+input.button,
+.formbuttons input.button,
+input.button.mainaction,
+#login-form input.button {
+  border: 1px solid #ddd;
+  color: #333;
+  background: #eee; }
+
+input[type=text],
+input[type=password],
+input[type=email]
+input[type=button],
+textarea {
+  border: 1px solid #ddd;
+  color: #333; }
+
+.contentbox .boxtitle,
+body.iframe .boxtitle,
+.contactfieldgroup legend {
+  background: #fff; }
+
+.records-table.fixedheader {
+  border-bottom: 1px solid #ddd; }
+
+.records-table thead td,
+.records-table thead th {
+  font-weight: normal;
+  color: #333; }
+
+.records-table tbody td {
+  border: none;
+  border-bottom: 1px solid #eee; }
+
+.records-table tbody tr td:first-child {
+  border-left: none !important; }
+
+.records-table tbody tr td:last-child {
+  border-right: none !important; }
+
+.records-table thead td a,
+.records-table thead th a,
+.records-table thead td span,
+.records-table thead th span,
+.records-table thead td div,
+.records-table thead th div,
+.records-table thead tr td.sortedASC a,
+.records-table thead tr th.sortedASC a,
+.records-table thead tr td.sortedDESC a,
+.records-table thead tr th.sortedDESC a {
+  color: #333 !important; }
+
+.boxpagenav a.icon:before {
+  color: #333; }
+
+#listselectors {
+  margin-top: 2px; }
+
+#messageheader {
+  border: none;
+  border-bottom: 1px solid #ddd; }
+
+.toolbar .spacer {
+  display: none; }
+
+#compose-attachments {
+  border-top: none;
+  border-bottom: none;
+  border-right: none; }
+
+#composebuttons a.button.extwin {
+  background: #fff !important; }
+
+#compose-contacts .boxfooter a span {
+  width: auto;
+  height: auto;
+  padding: 10px; }
+
+.headers-table.compose-headers textarea {
+  height: 1.4em !important; }
+
+#messagelistfooter,
+.searchbox input,
+#quicksearchbar input {
+  background: transparent; }
+
+#messagelistfooter #listcontrols a {
+  position: relative; }
+  #messagelistfooter #listcontrols a:before {
+    top: 2px; }
+
+.messagelist tbody td a,
+.messagelist tbody td {
+  color: #525252; }
+
+.boxfooter .listbutton {
+  border: none; }
+
+#mailboxlist .mailbox a:before {
+  display: none !important; }
+
+#vertical-preview {
+  border: 1px solid #ddd; }
+
+ul.listing li {
+  background-color: transparent !important; }
+
+/* plugins */
+#pluginbody .boxcontent {
+  border: none; }
+
+#taskbar a.button-calendar span.button-inner,
+#taskbar a.button-calendar.button-selected span.button-inner {
+  background-color: transparent; }
+
+#todaybutton input {
+  color: #333 !important;
+  padding-top: 2px;
+  padding-bottom: 2px; }
+
+ul#planner_controls li a {
+  color: #333;
+  border: 1px solid #ddd; }
+
+#taskviewmenu .toolbarmenu a.icon span {
+  background-image: none; }
+
+.googie_list td span, ul.toolbarmenu li a.active {
+  color: #000; }
+
+.googie_list td {
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #ddd; }
+
+.googie_list td.googie_list_onhover {
+  background: #E9E9E9; }
+
+.googie_list form {
+  padding: 6px !important; }
+
+.googie_list form img {
+  background: #6b6b6b;
+  padding: 1px 3px 2px 3px;
+  float: right; }
+
+/* fix background images to point to ours */
+#taskbar a:before,
+#topnav a.button-interface-options:before,
+.toolbar a.button:before,
+.dropbutton .dropbuttontip:before,
+#mailboxlist div.expanded:before,
+#mailboxlist div.collapsed:before,
+#subscription-table div.expanded:before,
+#subscription-table div.collapsed:before,
+.boxfooter .listbutton:before,
+.toolbar a.button.scheduled_sending:before,
+#calendartoolbar .addevent:before,
+#calendartoolbar .refresh:before,
+#taskstoolbar .button.newtask:before,
+#taskstoolbar .button.refresh:before,
+#helptoolbar a.button.help:before,
+#helptoolbar a.button.about:before,
+#helptoolbar a.button.license:before,
+#carddavsyncbut:before,
+#tb_label_popuplink:before,
+#calendar .fc-button-agendaDay .fc-button-inner:before,
+#calendar .fc-button-agendaWeek .fc-button-inner:before,
+#calendar .fc-button-month .fc-button-inner:before,
+#calendar .fc-button-table .fc-button-inner:before {
+  content: "" !important;
+  display: none !important; }
+
+#taskbar a span.button-inner,
+#messagetoolbar.toolbar a.button,
+#addressbooktoolbar.toolbar a.button,
+.dropbutton .dropbuttontip,
+#taskbar .minmodetoggle,
+.boxfooter .listbutton .inner,
+.pagenav a.button span.inner,
+#mailpreviewtoggle,
+.toolbar a.button,
+a.iconbutton {
+  background-image: url(../assets/images/buttons.png); }
+
+#mailboxlist li.mailbox a,
+ul.treelist li div.treetoggle,
+#sections-table tbody td.section,
+#settings-sections span.listitem a,
+#settings-sections li.listitem a,
+#settings-sections span.tablink a,
+#settings-sections li.tablink a,
+#compose-contacts li a,
+.folderlist li.mailbox a,
+.messagelist tr td div.collapsed,
+.messagelist tr td div.expanded,
+.messagelist tr td.threads div.listmenu,
+.messagelist tr td.attachment span.attachment,
+.messagelist tr td.attachment span.report,
+.messagelist tr td.priority span.priority,
+.messagelist tr td.priority span.prio1,
+.messagelist tr td.priority span.prio2,
+.messagelist tr td.priority span.prio3,
+.messagelist tr td.priority span.prio4,
+.messagelist tr td.priority span.prio5,
+.messagelist tr td.flag span.flagged,
+.messagelist tr td.flag span.unflagged,
+.messagelist tr td.flag span.unflagged:hover,
+.messagelist tr td.status span.status,
+.messagelist tr td.status span.msgicon,
+.messagelist tr td.status span.deleted,
+.messagelist tr td.status span.unread,
+.messagelist tr td.status span.unreadchildren,
+.messagelist tr td.subject span.msgicon,
+.messagelist tr td.subject span.deleted,
+.messagelist tr td.subject span.unread,
+.messagelist tr td.subject span.replied,
+.messagelist tr td.subject span.forwarded,
+.messagelist tr td.subject span.unreadchildren,
+#folder-selector li a span,
+ul.toolbarmenu li span.icon,
+#directorylist li a,
+#contacts-table .contact td.name,
+#compose-contacts li a {
+  background-image: url(../assets/images/listicons.png); }
+
+a.menuselector .handle {
+  background-image: url(../assets/images/selector.png); }
+
+/*.splitter { background-image: url(../assets/images/splitter.png); }*/
+/* buttons included in the roundcube button sprite */
+#taskbar a.button-mail span.button-inner {
+  background-position: 0 2px !important; }
+
+/* we don't want to change images on hover, so !important */
+#taskbar a.button-addressbook span.button-inner {
+  background-position: 0 -48px !important; }
+
+#taskbar a.button-settings span.button-inner {
+  background-position: 0 -96px !important; }
+
+#taskbar a.button-calendar span.button-inner {
+  background-position: 0 -144px !important; }
+
+#messagetoolbar a.markasjunk2,
+#messagetoolbar a.markasnotjunk2,
+#messagetoolbar a.markasjunk2Sel,
+#messagetoolbar a.markasnotjunk2Sel {
+  background-position: center -770px; }
+
+#messagetoolbar a.markasnotjunk2Sel:before {
+  content: "" !important; }
+
+#taskbar a.button-sticky_notes,
+#taskbar a.button-planner,
+#taskbar a.button-nabble {
+  background: transparent; }
+
+#taskbar a.button-interface-options {
+  width: 24px;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+#interface-options {
+  color: #333; }
+
+/* buttons added as separate png images */
+#topline a.button-logout {
+  background: url(../assets/images/icon-logout-min.png) no-repeat !important; }
+
+#taskbar a.button-logout span.button-inner {
+  background: url(../assets/images/icon-logout.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-help span.button-inner {
+  background: url(../assets/images/icon-help.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-sticky_notes span.button-inner {
+  background: url(../assets/images/icon-notes.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-tasklist span.button-inner {
+  background: url(../assets/images/icon-tasks.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-planner span.button-inner {
+  background: url(../assets/images/icon-planner.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-nabble span.button-inner {
+  background: url(../assets/images/icon-nabble.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-jappix4roundcube span.button-inner {
+  background: url(../assets/images/icon-jappix.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-interface-options {
+  background-image: url(../assets/images/icon-interface.png) !important; }
+
+#taskbar a.button-xresell span.button-inner {
+  background: url(../assets/images/icon-apps.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-apps span.button-inner {
+  background: url(../assets/images/icon-apps.png) 8px 0 no-repeat !important; }
+
+#messagetoolbar a.vcard_send {
+  background: url(../assets/images/toolbar-vcard.png) center 5px no-repeat !important; }
+
+#calneweventbut {
+  background: url(../assets/images/toolbar-calendar-add.png) center 5px no-repeat !important; }
+
+#calswitchbut {
+  background: url(../assets/images/toolbar-calendar-users.png) center 5px no-repeat !important; }
+
+#calexportbut {
+  background: url(../assets/images/toolbar-calendar-export.png) center 5px no-repeat !important; }
+
+#calimportbut {
+  background: url(../assets/images/toolbar-calendar-import.png) center 5px no-repeat !important; }
+
+#calprintprevbut {
+  background: url(../assets/images/toolbar-calendar-print.png) center 5px no-repeat !important; }
+
+#message-list-sort {
+  background: url(../assets/images/toolbar-sort.png) center 5px no-repeat !important; }
+
+.toolbar a.button.enigma,
+.toolbar a.button.encrypt {
+  background: url(../assets/images/toolbar-enigma.png) 50% 4px no-repeat !important; }
+
+#tb_label_popuplink {
+  background: url(../assets/images/toolbar-thunderbird-labels.png) 50% 6px no-repeat !important; }
+
+#keystoolbar a.button.import {
+  background: url(../assets/images/toolbar-key-import.png) 50% 4px no-repeat !important; }
+
+#keystoolbar a.button.export {
+  background: url(../assets/images/toolbar-key-export.png) 50% 4px no-repeat !important; }
+
+/* settings links */
+#sections-table #rcmrowcalendarlink td.section {
+  background-image: url(../assets/images/settings-calendar.png) !important;
+  background-position: 10px center !important; }
+
+#sections-table #rcmrowmh_preferences td.section {
+  background-image: url(../assets/images/settings-highlights.png) !important;
+  background-position: 10px center !important; }
+
+#sections-table #rcmrownabblelink td.section {
+  background-image: url(../assets/images/settings-nabble.png) !important;
+  background-position: 10px center !important; }
+
+#sections-table #rcmrowplugin_manager td.section {
+  background-image: url(../assets/images/settings-plugins.png) !important;
+  background-position: 10px center !important; }
+
+#sections-table #rcmrowaccountlink td.section {
+  background-image: url(../assets/images/settings-admin.png) !important;
+  background-position: 10px center !important; }
+
+#sections-table #rcmrowapps td.section {
+  background-image: url(../assets/images/settings-apps.png) !important;
+  background-position: 10px center !important; }
+
+#sections-table #rcmrowenigma td.section {
+  background-image: url(../assets/images/toolbar-enigma.png) !important;
+  background-position: 10px center !important; }
+
+#sections-table #rcmrowthunderbird_labels td.section {
+  background-image: url(../assets/images/settings-thunderbird-labels.png) !important;
+  background-position: 10px center !important; }
+
+#settings-sections .enigma.keys a {
+  background-image: url(../assets/images/settings-pgp.png) !important;
+  background-position: 10px center !important; }
+
+/* xsidebar */
+#xsidebar-button {
+  border: none; }
+
+#sections-table #rcmrowxsidebar td.section {
+  background-image: url(../assets/images/settings-sidebar.png) !important;
+  background-position: 8px 5px !important; }
+
+/* xweather */
+#sections-table #rcmrowxweather td.section {
+  background-image: url(../assets/images/settings-weather.png) !important;
+  background-position: 10px center !important; }
+
+/* xcalendar */
+.xcalendar .ui-datepicker .ui-datepicker-header {
+  background: #ddd; }
+
+#xcalendar-toolbar .button.calendar-day {
+  background: url(../assets/images/calendar-day.png) center 5px no-repeat; }
+
+#xcalendar-toolbar .button.calendar-week {
+  background: url(../assets/images/calendar-week.png) center 5px no-repeat; }
+
+#xcalendar-toolbar .button.calendar-month {
+  background: url(../assets/images/calendar-month.png) center 5px no-repeat; }
+
+#xcalendar-toolbar .button.calendar-agenda {
+  background: url(../assets/images/calendar-agenda.png) center 5px no-repeat; }
+
+#xcalendar-toolbar .button.calendar-add-event {
+  background: url(../assets/images/calendar-create-event.png) center 5px no-repeat; }
+
+#xcalendar-toolbar .button {
+  padding-top: 24px; }
+
+.xcalendar .ui-datepicker .ui-datepicker-month,
+.xcalendar .ui-datepicker .ui-datepicker-year,
+.xcalendar .ui-datepicker .ui-datepicker-prev,
+.xcalendar .ui-datepicker .ui-datepicker-next,
+.xcalendar .fc-state-default,
+.xcalendar .boxtitle button {
+  color: #333 !important;
+  text-shadow: none; }
+
+/* xemail schedule */
+#messagetoolbar a.button.scheduled {
+  background: url(../assets/images/schedule.png) center 5px no-repeat; }
+
+#sections-table #rcmrowxemail_schedule td.section {
+  background-image: url(../assets/images/settings-email-scheduler.png) !important;
+  background-position: 10px center !important; }
+
+/* xrss */
+#sections-table #rcmrowxnews_feed td.section {
+  background-image: url(../assets/images/settings-rss.png) !important;
+  background-position: 8px 5px !important; }
+
+/* xbackground */
+#sections-table #rcmrowxbackground td.section {
+  background-image: url(../assets/images/settings-background.png) !important;
+  background-position: 10px center !important; }
+
+body.xskin.xbg .folderlist li.mailbox a {
+  background-repeat: no-repeat; }
+body.xskin.xbg .uibox .boxtitle, body.xskin.xbg.iframe h1.boxtitle,
+body.xskin.xbg .records-table thead th a,
+body.xskin.xbg #taskbar a.button-selected {
+  background: transparent !important; }
+body.xskin.xbg #taskbar a.button-selected {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  height: 20px; }
+
+/* plugin: ident_switch */
+#plugin-ident_switch-account {
+  border: none;
+  margin-top: 10px !important; }
+
+/* plugin: return_to_webmail (cpanel) */
+#taskbar a.button-cpwebmail span.button-inner {
+  padding: 0 0 0 34px;
+  font-weight: bold;
+  background-size: 20%;
+  background-position-y: 0;
+  background-position-x: 5px; }
+
+body.login-page {
+  background: #EFF9FF url(images/login_bg.png) repeat-x;
+  padding: 0;
+  margin: 0; }
+  body.login-page #login-form {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 155px 0 0 0;
+    background: url(images/login.png) no-repeat center top;
+    border: none; }
+    body.login-page #login-form .boxtitle {
+      color: #333 !important;
+      margin-top: 20px;
+      border: none; }
+    body.login-page #login-form .box-inner {
+      margin: 0 auto 0 auto;
+      padding: 10px 0 10px 0;
+      width: 450px;
+      border: 1px solid #aaccee;
+      background: #e9f4ff;
+      box-shadow: 3px 3px 4px #c0dcee !important;
+      text-align: center; }
+    body.login-page #login-form h1 {
+      display: none; }
+    body.login-page #login-form form {
+      padding: 20px 30px 10px 30px; }
+    body.login-page #login-form form[name=registerform] {
+      padding-top: 0; }
+    body.login-page #login-form #rcmloginsubmit {
+      color: #2c7dcf;
+      padding: 5px 16px;
+      background: #f4fbff;
+      border: 1px solid #aaccee; }
+    body.login-page #login-form #rcmloginsubmit:hover {
+      background: #ddf1fd !important; }
+    body.login-page #login-form .box-bottom {
+      margin: 0 auto;
+      width: 450px; }
+    body.login-page #login-form .formbuttons {
+      margin-bottom: 0; }
+      body.login-page #login-form .formbuttons input.button,
+      body.login-page #login-form .formbuttons input,
+      body.login-page #login-form .formbuttons input:active,
+      body.login-page #login-form .formbuttons button.submit {
+        background: #D3E8FF !important;
+        padding: 8px 20px;
+        color: #fff;
+        margin: 0 0 10px 0; }
+  body.login-page #logo {
+    display: none; }
+  body.login-page #company-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  body.login-page #header #topnav #taskbar {
+    background: #E9F4FF !important;
+    border-bottom: 1px solid #ACE; }
+  body.login-page #header #topnav #taskbar a span {
+    color: #333 !important;
+    font-weight: normal; }
+
+body.xbackground-login-image #login-form {
+  background: transparent !important; }
+  body.xbackground-login-image #login-form .box-inner {
+    box-shadow: none !important; }
+
+body.color-6da1d3 #topline {
+  color: blue; }
+
+/* color 1 - dark */
+body.xmobile.color-6da1d3 .popup-close,
+body.xmobile.color-6da1d3 #mailboxlist li.mailbox a .unreadcount,
+body.xmobile.color-6da1d3 #messagelistcontainer .boxpagenav a.icon,
+body.xmobile.color-6da1d3 #messagelistcontainer .pagenav a.button,
+body.xmobile.color-6da1d3 #messagestack div,
+body.xmobile.color-6da1d3 #message-objects div a.button,
+body.xmobile.color-6da1d3 .boxfooter .listbutton {
+  background-color: #6da1d3; }
+
+body.color-6da1d3 input.switchbox-input:checked + label.switchbox,
+body.color-6da1d3 #messageheader a.button.selected {
+  background-color: #6da1d3 !important; }
+
+body.color-6da1d3 .records-table td span:before,
+body.color-6da1d3 .records-table th span:before,
+body.color-6da1d3 .records-table th a:before,
+body.color-6da1d3 .records-table thead td div:before,
+body.color-6da1d3 .records-table thead th div:before,
+body.color-6da1d3 .records-table thead td a:after,
+body.color-6da1d3 .records-table thead th a:after,
+body.color-6da1d3 .records-table div.expanded,
+body.color-6da1d3 .records-table div.collapsed,
+body.color-6da1d3 .boxfooter .listbutton.groupactions:before,
+body.color-6da1d3 #rss a,
+body.color-6da1d3 a.iconbutton:before,
+body.color-6da1d3 .minmodetoggle:before,
+body.color-6da1d3 #mailpreviewtoggle,
+body.color-6da1d3 .toolbar a.button:before,
+body.color-6da1d3 .boxfooter .listbutton.groupactions,
+body.color-6da1d3 .boxfooter .listbutton.add,
+body.color-6da1d3 .boxfooter .listbutton.delete,
+body.color-6da1d3 .boxfooter .listbutton.removegroup,
+body.color-6da1d3 .boxfooter .listbutton.addto .inner,
+body.color-6da1d3 .boxfooter .listbutton.addcc .inner,
+body.color-6da1d3 .boxfooter .listbutton.addbcc .inner,
+body.color-6da1d3 .boxfooter .countdisplay,
+body.color-6da1d3.xskin #apps-menu a.app-item > div.icon,
+body.xmobile.color-6da1d3 #folderlist-footer #quotadisplay,
+body.xmobile.color-6da1d3 #mailboxlist li.mailbox div.treetoggle,
+body.xmobile.color-6da1d3 #directorylist li.addressbook div.collapsed,
+body.xmobile.color-6da1d3 #directorylist li.addressbook div.expanded,
+body.xmobile.color-6da1d3 #main-menu a,
+body.xmobile.color-6da1d3 #full-headers .more-headers,
+body.xmobile.color-6da1d3 #attachment-list .delete,
+body.xmobile.color-6da1d3 #attachment-list .drop,
+body.xmobile.color-6da1d3 #messageheader .pagenav a.button,
+body.xmobile.color-6da1d3 #messagelist td.subject:before,
+body.xmobile.color-6da1d3 #messagelist tr.selected td.subject:before,
+body.xmobile.color-6da1d3 #messagelist tr.unfocused td.subject:before,
+body.xmobile.color-6da1d3 .folderlist li.mailbox div.treetoggle:before {
+  color: #6da1d3; }
+
+body.xmobile.color-6da1d3 .popup-close a,
+body.xmobile.color-6da1d3 .popup-box h5,
+body.xmobile.color-6da1d3 .popup-box .boxtitle,
+body.xmobile.color-6da1d3 .popup-box .boxtitle span,
+body.xmobile.color-6da1d3 #quicksearchbar .popup-close a {
+  color: #6da1d3 !important; }
+
+body.color-6da1d3 button,
+body.color-6da1d3 .button,
+body.color-6da1d3 #remote-objects-message a.button,
+body.color-6da1d3 #messageheader a.button,
+body.color-6da1d3 #messageheader .buttongroup,
+body.color-6da1d3 input[type=button],
+body.color-6da1d3 input[type=button]:hover,
+body.color-6da1d3 fieldset,
+body.color-6da1d3 a.menuselector,
+body.color-6da1d3 #topnav,
+body.color-6da1d3.minimal #topnav,
+body.color-6da1d3 #taskbar a.button-selected,
+body.color-6da1d3 .popupmenu,
+body.color-6da1d3 #messagestack div,
+body.color-6da1d3 #maillistmode.selected,
+body.color-6da1d3 #mailthreadmode.selected,
+body.color-6da1d3 #rcmKSearchpane,
+body.color-6da1d3 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+body.xdesktop.color-6da1d3 select,
+body.xmobile.color-6da1d3 #main-menu,
+body.xmobile.color-6da1d3 .popup-close,
+body.xmobile.color-6da1d3 #all-headers {
+  border-color: #6da1d3 !important; }
+
+body.xdesktop.color-6da1d3 input[type=text],
+body.xdesktop.color-6da1d3 input[type=password],
+body.xdesktop.color-6da1d3 input[type=email],
+body.xdesktop.color-6da1d3 textarea,
+body.color-6da1d3 input.button,
+body.color-6da1d3 .buttons a.button,
+body.color-6da1d3 .ui-dialog button.ui-button,
+body.xmobile.color-6da1d3 #main-menu a,
+body.color-6da1d3 input.switchbox-input:checked + label.switchbox,
+body.xmobile.color-6da1d3 a.contactfieldbutton,
+body.xmobile.color-6da1d3 #uploadformlink {
+  border: 1px solid #ddd !important;
+  border-color: #6da1d3 !important; }
+
+/* color 2 - darker */
+body.color-6da1d3 body.mailbox #inboxButton a {
+  background-color: #1F75CC; }
+
+body.color-6da1d3 .uibox .boxtitle,
+body.color-6da1d3 #xsidebar .boxtitle :before,
+body.color-6da1d3 .widescreen #messagelistheader,
+body.color-6da1d3.xcalendar .ui-datepicker .ui-datepicker-header select,
+body.color-6da1d3.xcalendar .ui-datepicker .ui-datepicker-header a,
+body.color-6da1d3.xcalendar .ui-datepicker .ui-datepicker-header span,
+body.color-6da1d3 .records-table thead tr .status span.status,
+body.color-6da1d3 .records-table thead tr .flag span.flagged,
+body.color-6da1d3 .records-table thead tr .attachment span.attachment,
+body.color-6da1d3 .records-table thead tr .priority span.priority,
+body.color-6da1d3 .records-table thead td a,
+body.color-6da1d3 .records-table thead th a {
+  color: #1F75CC !important; }
+
+/* color 3 - darkest */
+body.xdesktop.color-6da1d3 a {
+  color: #166ac0; }
+
+body.color-6da1d3 button,
+body.color-6da1d3 input[type=button],
+body.color-6da1d3 input[type=submit],
+body.color-6da1d3 input[type=reset],
+body.color-6da1d3 .buttons a.button,
+body.color-6da1d3 #compose-attachments a.button,
+body.color-6da1d3 input.button,
+body.color-6da1d3 input.button:active,
+body.color-6da1d3 .buttons a.button,
+body.color-6da1d3 .formbuttons input.button,
+body.color-6da1d3 input.button.mainaction,
+body.color-6da1d3 #login-form input.button,
+body.color-6da1d3 #topline .topleft a,
+body.color-6da1d3 #topline .topright a,
+body.color-6da1d3 #topline .topright a.button-logout,
+body.color-6da1d3 #topline .topright span,
+body.color-6da1d3 .username select.deco,
+body.color-6da1d3 #taskbar a span.button-inner,
+body.color-6da1d3 .toolbar a.button,
+body.color-6da1d3 #topline,
+body.color-6da1d3 .minimal #topline,
+body.color-6da1d3 #main-menu a.active,
+body.color-6da1d3 #taskbar a.button-calendar span.button-inner,
+body.color-6da1d3 #taskbar a.button-calendar.button-selected span.button-inner,
+body.color-6da1d3 ul#planner_controls li a,
+body.xmobile.color-6da1d3 a.contactfieldbutton,
+body.xmobile.color-6da1d3 #uploadformlink,
+body.xmobile.color-6da1d3 .tablink a {
+  color: #166ac0 !important; }
+
+body.color-6da1d3.xcalendar button.new-calendar,
+body.color-6da1d3.xcalendar .calendar-item a:before,
+body.color-6da1d3.xcalendar #calendar-grid .fc-icon {
+  color: #166ac0 !important; }
+
+/* color 4 - light */
+body.color-6da1d3 .uibox,
+body.color-6da1d3 #compose-content,
+body.color-6da1d3 #mailview-top,
+body.color-6da1d3 #mailview-bottom,
+body.color-6da1d3 #messagebody p.image-attachment,
+body.color-6da1d3 .records-table.fixedheader,
+body.color-6da1d3 #messagelistfooter,
+body.color-6da1d3 .moreheaderstoggle,
+body.color-6da1d3 #messageheader,
+body.color-6da1d3 #composeheaders,
+body.color-6da1d3 #composeoptions,
+body.color-6da1d3 #compose-attachments,
+body.color-6da1d3 #compose-contacts #directorylist,
+body.color-6da1d3 .listbox .boxfooter,
+body.color-6da1d3 #taskbar a,
+body.color-6da1d3 .minimal #taskbar a,
+body.color-6da1d3 ul#planner_controls li a,
+body.color-6da1d3 .boxtitle, .uibox .listing thead td,
+body.color-6da1d3 .boxtitle, .uibox .listing thead th,
+body.color-6da1d3.iframe h1.boxtitle,
+body.color-6da1d3 #vertical-preview,
+body.color-6da1d3 .widescreen #messagelistheader {
+  border-color: #BFD9F2; }
+
+body.xmobile.color-6da1d3 #messageheader .pagenav a.button.disabled {
+  color: #BFD9F2; }
+
+/* color 5 - lighter */
+body.color-6da1d3 .listbox .listitem.selected,
+body.color-6da1d3 .listbox .tablink.selected,
+body.color-6da1d3 .listbox .listitem.selected > a,
+body.color-6da1d3 .listbox .tablink.selected > a,
+body.color-6da1d3 .listing tbody tr.unfocused td,
+body.color-6da1d3 .listing tbody tr.selected td,
+body.color-6da1d3 .listing li.selected,
+body.color-6da1d3 .listing li.selected > a,
+body.color-6da1d3 #mailboxlist li.mailbox .unreadcount,
+body.xdesktop.color-6da1d3 #composeoptionstoggle,
+body.xmobile.color-6da1d3 #main-menu a.active {
+  background-color: #D3E8FF; }
+
+body.color-6da1d3 button.button:hover,
+body.color-6da1d3 a.button:hover,
+body.color-6da1d3 .ui-dialog button.ui-button:hover,
+body.color-6da1d3 #compose-attachments a.button:hover,
+body.color-6da1d3 input.button:hover,
+body.color-6da1d3 input[type=button]:hover,
+body.color-6da1d3 .records-table tr.selected,
+body.color-6da1d3 .records-table tr.unfocused,
+body.color-6da1d3 .records-table tr.selected td,
+body.color-6da1d3 .records-table tr.unfocused td,
+body.color-6da1d3 a.rowLink:hover,
+body.color-6da1d3 #xsidebar .boxtitle,
+body.color-6da1d3 #remote-objects-message a:hover,
+body.color-6da1d3.compact-message-list-always #mailview-top tr:hover,
+body.color-6da1d3.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+body.xmobile.color-6da1d3 #messagelist tr.selected,
+body.xmobile.color-6da1d3 #messagelist tr.unfocused,
+body.xmobile.color-6da1d3 #messagelist tr.selected td.date {
+  background-color: #D3E8FF !important; }
+
+body.color-6da1d3 #mailboxlist li.mailbox ul,
+body.color-6da1d3 .listbox .listitem,
+body.color-6da1d3 .listbox .tablink,
+body.color-6da1d3 .listing tbody td,
+body.color-6da1d3 .listing li {
+  border-color: #D3E8FF; }
+
+body.color-6da1d3.compact-message-list-always #mailview-top tr,
+body.color-6da1d3.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #D3E8FF !important; }
+
+/* color 6 - lightest */
+body.color-6da1d3 #compose-attachments a.button,
+body.color-6da1d3 button.button,
+body.color-6da1d3 .ui-dialog button.ui-button,
+body.color-6da1d3 #remote-objects-message .button,
+body.color-6da1d3 input.button,
+body.color-6da1d3 input[type=button],
+body.color-6da1d3 .widescreen #messagelistheader,
+body.xmobile.color-6da1d3 a.contactfieldbutton,
+body.xmobile.color-6da1d3 #uploadformlink {
+  background-color: #E9F4FF !important; }
+
+body.color-6da1d3 #composeheaders,
+body.color-6da1d3 #composebodycontainer .mce-panel,
+body.color-6da1d3 #taskbar a,
+body.color-6da1d3 .minimal #taskbar a,
+body.color-6da1d3 .moreheaderstoggle,
+body.color-6da1d3 #messageheader,
+body.color-6da1d3 .records-table thead td,
+body.color-6da1d3 .records-table thead th,
+body.color-6da1d3 input[type=button],
+body.color-6da1d3 .uibox .listing thead td,
+body.color-6da1d3 .uibox .listing thead th,
+body.color-6da1d3 .uibox .boxtitle,
+body.color-6da1d3.xcalendar .ui-datepicker .ui-datepicker-header,
+body.xdesktop.color-6da1d3 .listbox,
+body.xdesktop.color-6da1d3 .buttons a.button,
+body.color-6da1d3 ul#planner_controls li a,
+body.color-6da1d3 #messagelistfooter,
+body.color-6da1d3 #mailpreviewtoggle,
+body.color-6da1d3.iframe h1.boxtitle,
+body.xmobile.color-6da1d3 #main-menu a {
+  background-color: #E9F4FF; }
+
+body.color-6da1d3 .popupmenu a:hover {
+  background-color: #E9F4FF !important; }
+
+/* color 1 - dark */
+body.xmobile.color-6dcfd3 .popup-close,
+body.xmobile.color-6dcfd3 #mailboxlist li.mailbox a .unreadcount,
+body.xmobile.color-6dcfd3 #messagelistcontainer .boxpagenav a.icon,
+body.xmobile.color-6dcfd3 #messagelistcontainer .pagenav a.button,
+body.xmobile.color-6dcfd3 #messagestack div,
+body.xmobile.color-6dcfd3 #message-objects div a.button,
+body.xmobile.color-6dcfd3 .boxfooter .listbutton {
+  background-color: #6dcfd3; }
+
+body.color-6dcfd3 input.switchbox-input:checked + label.switchbox,
+body.color-6dcfd3 #messageheader a.button.selected {
+  background-color: #6dcfd3 !important; }
+
+body.color-6dcfd3 .records-table td span:before,
+body.color-6dcfd3 .records-table th span:before,
+body.color-6dcfd3 .records-table th a:before,
+body.color-6dcfd3 .records-table thead td div:before,
+body.color-6dcfd3 .records-table thead th div:before,
+body.color-6dcfd3 .records-table thead td a:after,
+body.color-6dcfd3 .records-table thead th a:after,
+body.color-6dcfd3 .records-table div.expanded,
+body.color-6dcfd3 .records-table div.collapsed,
+body.color-6dcfd3 .boxfooter .listbutton.groupactions:before,
+body.color-6dcfd3 #rss a,
+body.color-6dcfd3 a.iconbutton:before,
+body.color-6dcfd3 .minmodetoggle:before,
+body.color-6dcfd3 #mailpreviewtoggle,
+body.color-6dcfd3 .toolbar a.button:before,
+body.color-6dcfd3 .boxfooter .listbutton.groupactions,
+body.color-6dcfd3 .boxfooter .listbutton.add,
+body.color-6dcfd3 .boxfooter .listbutton.delete,
+body.color-6dcfd3 .boxfooter .listbutton.removegroup,
+body.color-6dcfd3 .boxfooter .listbutton.addto .inner,
+body.color-6dcfd3 .boxfooter .listbutton.addcc .inner,
+body.color-6dcfd3 .boxfooter .listbutton.addbcc .inner,
+body.color-6dcfd3 .boxfooter .countdisplay,
+body.color-6dcfd3.xskin #apps-menu a.app-item > div.icon,
+body.xmobile.color-6dcfd3 #folderlist-footer #quotadisplay,
+body.xmobile.color-6dcfd3 #mailboxlist li.mailbox div.treetoggle,
+body.xmobile.color-6dcfd3 #directorylist li.addressbook div.collapsed,
+body.xmobile.color-6dcfd3 #directorylist li.addressbook div.expanded,
+body.xmobile.color-6dcfd3 #main-menu a,
+body.xmobile.color-6dcfd3 #full-headers .more-headers,
+body.xmobile.color-6dcfd3 #attachment-list .delete,
+body.xmobile.color-6dcfd3 #attachment-list .drop,
+body.xmobile.color-6dcfd3 #messageheader .pagenav a.button,
+body.xmobile.color-6dcfd3 #messagelist td.subject:before,
+body.xmobile.color-6dcfd3 #messagelist tr.selected td.subject:before,
+body.xmobile.color-6dcfd3 #messagelist tr.unfocused td.subject:before,
+body.xmobile.color-6dcfd3 .folderlist li.mailbox div.treetoggle:before {
+  color: #6dcfd3; }
+
+body.xmobile.color-6dcfd3 .popup-close a,
+body.xmobile.color-6dcfd3 .popup-box h5,
+body.xmobile.color-6dcfd3 .popup-box .boxtitle,
+body.xmobile.color-6dcfd3 .popup-box .boxtitle span,
+body.xmobile.color-6dcfd3 #quicksearchbar .popup-close a {
+  color: #6dcfd3 !important; }
+
+body.color-6dcfd3 button,
+body.color-6dcfd3 .button,
+body.color-6dcfd3 #remote-objects-message a.button,
+body.color-6dcfd3 #messageheader a.button,
+body.color-6dcfd3 #messageheader .buttongroup,
+body.color-6dcfd3 input[type=button],
+body.color-6dcfd3 input[type=button]:hover,
+body.color-6dcfd3 fieldset,
+body.color-6dcfd3 a.menuselector,
+body.color-6dcfd3 #topnav,
+body.color-6dcfd3.minimal #topnav,
+body.color-6dcfd3 #taskbar a.button-selected,
+body.color-6dcfd3 .popupmenu,
+body.color-6dcfd3 #messagestack div,
+body.color-6dcfd3 #maillistmode.selected,
+body.color-6dcfd3 #mailthreadmode.selected,
+body.color-6dcfd3 #rcmKSearchpane,
+body.color-6dcfd3 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+body.xdesktop.color-6dcfd3 select,
+body.xmobile.color-6dcfd3 #main-menu,
+body.xmobile.color-6dcfd3 .popup-close,
+body.xmobile.color-6dcfd3 #all-headers {
+  border-color: #6dcfd3 !important; }
+
+body.xdesktop.color-6dcfd3 input[type=text],
+body.xdesktop.color-6dcfd3 input[type=password],
+body.xdesktop.color-6dcfd3 input[type=email],
+body.xdesktop.color-6dcfd3 textarea,
+body.color-6dcfd3 input.button,
+body.color-6dcfd3 .buttons a.button,
+body.color-6dcfd3 .ui-dialog button.ui-button,
+body.xmobile.color-6dcfd3 #main-menu a,
+body.color-6dcfd3 input.switchbox-input:checked + label.switchbox,
+body.xmobile.color-6dcfd3 a.contactfieldbutton,
+body.xmobile.color-6dcfd3 #uploadformlink {
+  border: 1px solid #ddd !important;
+  border-color: #6dcfd3 !important; }
+
+/* color 2 - darker */
+body.color-6dcfd3 body.mailbox #inboxButton a {
+  background-color: #1fbecc; }
+
+body.color-6dcfd3 .uibox .boxtitle,
+body.color-6dcfd3 #xsidebar .boxtitle :before,
+body.color-6dcfd3 .widescreen #messagelistheader,
+body.color-6dcfd3.xcalendar .ui-datepicker .ui-datepicker-header select,
+body.color-6dcfd3.xcalendar .ui-datepicker .ui-datepicker-header a,
+body.color-6dcfd3.xcalendar .ui-datepicker .ui-datepicker-header span,
+body.color-6dcfd3 .records-table thead tr .status span.status,
+body.color-6dcfd3 .records-table thead tr .flag span.flagged,
+body.color-6dcfd3 .records-table thead tr .attachment span.attachment,
+body.color-6dcfd3 .records-table thead tr .priority span.priority,
+body.color-6dcfd3 .records-table thead td a,
+body.color-6dcfd3 .records-table thead th a {
+  color: #1fbecc !important; }
+
+/* color 3 - darkest */
+body.xdesktop.color-6dcfd3 a {
+  color: #16aac0; }
+
+body.color-6dcfd3 button,
+body.color-6dcfd3 input[type=button],
+body.color-6dcfd3 input[type=submit],
+body.color-6dcfd3 input[type=reset],
+body.color-6dcfd3 .buttons a.button,
+body.color-6dcfd3 #compose-attachments a.button,
+body.color-6dcfd3 input.button,
+body.color-6dcfd3 input.button:active,
+body.color-6dcfd3 .buttons a.button,
+body.color-6dcfd3 .formbuttons input.button,
+body.color-6dcfd3 input.button.mainaction,
+body.color-6dcfd3 #login-form input.button,
+body.color-6dcfd3 #topline .topleft a,
+body.color-6dcfd3 #topline .topright a,
+body.color-6dcfd3 #topline .topright a.button-logout,
+body.color-6dcfd3 #topline .topright span,
+body.color-6dcfd3 .username select.deco,
+body.color-6dcfd3 #taskbar a span.button-inner,
+body.color-6dcfd3 .toolbar a.button,
+body.color-6dcfd3 #topline,
+body.color-6dcfd3 .minimal #topline,
+body.color-6dcfd3 #main-menu a.active,
+body.color-6dcfd3 #taskbar a.button-calendar span.button-inner,
+body.color-6dcfd3 #taskbar a.button-calendar.button-selected span.button-inner,
+body.color-6dcfd3 ul#planner_controls li a,
+body.xmobile.color-6dcfd3 a.contactfieldbutton,
+body.xmobile.color-6dcfd3 #uploadformlink,
+body.xmobile.color-6dcfd3 .tablink a {
+  color: #16aac0 !important; }
+
+body.color-6dcfd3.xcalendar button.new-calendar,
+body.color-6dcfd3.xcalendar .calendar-item a:before,
+body.color-6dcfd3.xcalendar #calendar-grid .fc-icon {
+  color: #16aac0 !important; }
+
+/* color 4 - light */
+body.color-6dcfd3 .uibox,
+body.color-6dcfd3 #compose-content,
+body.color-6dcfd3 #mailview-top,
+body.color-6dcfd3 #mailview-bottom,
+body.color-6dcfd3 #messagebody p.image-attachment,
+body.color-6dcfd3 .records-table.fixedheader,
+body.color-6dcfd3 #messagelistfooter,
+body.color-6dcfd3 .moreheaderstoggle,
+body.color-6dcfd3 #messageheader,
+body.color-6dcfd3 #composeheaders,
+body.color-6dcfd3 #composeoptions,
+body.color-6dcfd3 #compose-attachments,
+body.color-6dcfd3 #compose-contacts #directorylist,
+body.color-6dcfd3 .listbox .boxfooter,
+body.color-6dcfd3 #taskbar a,
+body.color-6dcfd3 .minimal #taskbar a,
+body.color-6dcfd3 ul#planner_controls li a,
+body.color-6dcfd3 .boxtitle, .uibox .listing thead td,
+body.color-6dcfd3 .boxtitle, .uibox .listing thead th,
+body.color-6dcfd3.iframe h1.boxtitle,
+body.color-6dcfd3 #vertical-preview,
+body.color-6dcfd3 .widescreen #messagelistheader {
+  border-color: #bfeef2; }
+
+body.xmobile.color-6dcfd3 #messageheader .pagenav a.button.disabled {
+  color: #bfeef2; }
+
+/* color 5 - lighter */
+body.color-6dcfd3 .listbox .listitem.selected,
+body.color-6dcfd3 .listbox .tablink.selected,
+body.color-6dcfd3 .listbox .listitem.selected > a,
+body.color-6dcfd3 .listbox .tablink.selected > a,
+body.color-6dcfd3 .listing tbody tr.unfocused td,
+body.color-6dcfd3 .listing tbody tr.selected td,
+body.color-6dcfd3 .listing li.selected,
+body.color-6dcfd3 .listing li.selected > a,
+body.color-6dcfd3 #mailboxlist li.mailbox .unreadcount,
+body.xdesktop.color-6dcfd3 #composeoptionstoggle,
+body.xmobile.color-6dcfd3 #main-menu a.active {
+  background-color: #d3f9ff; }
+
+body.color-6dcfd3 button.button:hover,
+body.color-6dcfd3 a.button:hover,
+body.color-6dcfd3 .ui-dialog button.ui-button:hover,
+body.color-6dcfd3 #compose-attachments a.button:hover,
+body.color-6dcfd3 input.button:hover,
+body.color-6dcfd3 input[type=button]:hover,
+body.color-6dcfd3 .records-table tr.selected,
+body.color-6dcfd3 .records-table tr.unfocused,
+body.color-6dcfd3 .records-table tr.selected td,
+body.color-6dcfd3 .records-table tr.unfocused td,
+body.color-6dcfd3 a.rowLink:hover,
+body.color-6dcfd3 #xsidebar .boxtitle,
+body.color-6dcfd3 #remote-objects-message a:hover,
+body.color-6dcfd3.compact-message-list-always #mailview-top tr:hover,
+body.color-6dcfd3.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+body.xmobile.color-6dcfd3 #messagelist tr.selected,
+body.xmobile.color-6dcfd3 #messagelist tr.unfocused,
+body.xmobile.color-6dcfd3 #messagelist tr.selected td.date {
+  background-color: #d3f9ff !important; }
+
+body.color-6dcfd3 #mailboxlist li.mailbox ul,
+body.color-6dcfd3 .listbox .listitem,
+body.color-6dcfd3 .listbox .tablink,
+body.color-6dcfd3 .listing tbody td,
+body.color-6dcfd3 .listing li {
+  border-color: #d3f9ff; }
+
+body.color-6dcfd3.compact-message-list-always #mailview-top tr,
+body.color-6dcfd3.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #d3f9ff !important; }
+
+/* color 6 - lightest */
+body.color-6dcfd3 #compose-attachments a.button,
+body.color-6dcfd3 button.button,
+body.color-6dcfd3 .ui-dialog button.ui-button,
+body.color-6dcfd3 #remote-objects-message .button,
+body.color-6dcfd3 input.button,
+body.color-6dcfd3 input[type=button],
+body.color-6dcfd3 .widescreen #messagelistheader,
+body.xmobile.color-6dcfd3 a.contactfieldbutton,
+body.xmobile.color-6dcfd3 #uploadformlink {
+  background-color: #e9fcff !important; }
+
+body.color-6dcfd3 #composeheaders,
+body.color-6dcfd3 #composebodycontainer .mce-panel,
+body.color-6dcfd3 #taskbar a,
+body.color-6dcfd3 .minimal #taskbar a,
+body.color-6dcfd3 .moreheaderstoggle,
+body.color-6dcfd3 #messageheader,
+body.color-6dcfd3 .records-table thead td,
+body.color-6dcfd3 .records-table thead th,
+body.color-6dcfd3 input[type=button],
+body.color-6dcfd3 .uibox .listing thead td,
+body.color-6dcfd3 .uibox .listing thead th,
+body.color-6dcfd3 .uibox .boxtitle,
+body.color-6dcfd3.xcalendar .ui-datepicker .ui-datepicker-header,
+body.xdesktop.color-6dcfd3 .listbox,
+body.xdesktop.color-6dcfd3 .buttons a.button,
+body.color-6dcfd3 ul#planner_controls li a,
+body.color-6dcfd3 #messagelistfooter,
+body.color-6dcfd3 #mailpreviewtoggle,
+body.color-6dcfd3.iframe h1.boxtitle,
+body.xmobile.color-6dcfd3 #main-menu a {
+  background-color: #e9fcff; }
+
+body.color-6dcfd3 .popupmenu a:hover {
+  background-color: #e9fcff !important; }
+
+/* color 1 - dark */
+body.xmobile.color-6dd374 .popup-close,
+body.xmobile.color-6dd374 #mailboxlist li.mailbox a .unreadcount,
+body.xmobile.color-6dd374 #messagelistcontainer .boxpagenav a.icon,
+body.xmobile.color-6dd374 #messagelistcontainer .pagenav a.button,
+body.xmobile.color-6dd374 #messagestack div,
+body.xmobile.color-6dd374 #message-objects div a.button,
+body.xmobile.color-6dd374 .boxfooter .listbutton {
+  background-color: #6dd374; }
+
+body.color-6dd374 input.switchbox-input:checked + label.switchbox,
+body.color-6dd374 #messageheader a.button.selected {
+  background-color: #6dd374 !important; }
+
+body.color-6dd374 .records-table td span:before,
+body.color-6dd374 .records-table th span:before,
+body.color-6dd374 .records-table th a:before,
+body.color-6dd374 .records-table thead td div:before,
+body.color-6dd374 .records-table thead th div:before,
+body.color-6dd374 .records-table thead td a:after,
+body.color-6dd374 .records-table thead th a:after,
+body.color-6dd374 .records-table div.expanded,
+body.color-6dd374 .records-table div.collapsed,
+body.color-6dd374 .boxfooter .listbutton.groupactions:before,
+body.color-6dd374 #rss a,
+body.color-6dd374 a.iconbutton:before,
+body.color-6dd374 .minmodetoggle:before,
+body.color-6dd374 #mailpreviewtoggle,
+body.color-6dd374 .toolbar a.button:before,
+body.color-6dd374 .boxfooter .listbutton.groupactions,
+body.color-6dd374 .boxfooter .listbutton.add,
+body.color-6dd374 .boxfooter .listbutton.delete,
+body.color-6dd374 .boxfooter .listbutton.removegroup,
+body.color-6dd374 .boxfooter .listbutton.addto .inner,
+body.color-6dd374 .boxfooter .listbutton.addcc .inner,
+body.color-6dd374 .boxfooter .listbutton.addbcc .inner,
+body.color-6dd374 .boxfooter .countdisplay,
+body.color-6dd374.xskin #apps-menu a.app-item > div.icon,
+body.xmobile.color-6dd374 #folderlist-footer #quotadisplay,
+body.xmobile.color-6dd374 #mailboxlist li.mailbox div.treetoggle,
+body.xmobile.color-6dd374 #directorylist li.addressbook div.collapsed,
+body.xmobile.color-6dd374 #directorylist li.addressbook div.expanded,
+body.xmobile.color-6dd374 #main-menu a,
+body.xmobile.color-6dd374 #full-headers .more-headers,
+body.xmobile.color-6dd374 #attachment-list .delete,
+body.xmobile.color-6dd374 #attachment-list .drop,
+body.xmobile.color-6dd374 #messageheader .pagenav a.button,
+body.xmobile.color-6dd374 #messagelist td.subject:before,
+body.xmobile.color-6dd374 #messagelist tr.selected td.subject:before,
+body.xmobile.color-6dd374 #messagelist tr.unfocused td.subject:before,
+body.xmobile.color-6dd374 .folderlist li.mailbox div.treetoggle:before {
+  color: #6dd374; }
+
+body.xmobile.color-6dd374 .popup-close a,
+body.xmobile.color-6dd374 .popup-box h5,
+body.xmobile.color-6dd374 .popup-box .boxtitle,
+body.xmobile.color-6dd374 .popup-box .boxtitle span,
+body.xmobile.color-6dd374 #quicksearchbar .popup-close a {
+  color: #6dd374 !important; }
+
+body.color-6dd374 button,
+body.color-6dd374 .button,
+body.color-6dd374 #remote-objects-message a.button,
+body.color-6dd374 #messageheader a.button,
+body.color-6dd374 #messageheader .buttongroup,
+body.color-6dd374 input[type=button],
+body.color-6dd374 input[type=button]:hover,
+body.color-6dd374 fieldset,
+body.color-6dd374 a.menuselector,
+body.color-6dd374 #topnav,
+body.color-6dd374.minimal #topnav,
+body.color-6dd374 #taskbar a.button-selected,
+body.color-6dd374 .popupmenu,
+body.color-6dd374 #messagestack div,
+body.color-6dd374 #maillistmode.selected,
+body.color-6dd374 #mailthreadmode.selected,
+body.color-6dd374 #rcmKSearchpane,
+body.color-6dd374 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+body.xdesktop.color-6dd374 select,
+body.xmobile.color-6dd374 #main-menu,
+body.xmobile.color-6dd374 .popup-close,
+body.xmobile.color-6dd374 #all-headers {
+  border-color: #6dd374 !important; }
+
+body.xdesktop.color-6dd374 input[type=text],
+body.xdesktop.color-6dd374 input[type=password],
+body.xdesktop.color-6dd374 input[type=email],
+body.xdesktop.color-6dd374 textarea,
+body.color-6dd374 input.button,
+body.color-6dd374 .buttons a.button,
+body.color-6dd374 .ui-dialog button.ui-button,
+body.xmobile.color-6dd374 #main-menu a,
+body.color-6dd374 input.switchbox-input:checked + label.switchbox,
+body.xmobile.color-6dd374 a.contactfieldbutton,
+body.xmobile.color-6dd374 #uploadformlink {
+  border: 1px solid #ddd !important;
+  border-color: #6dd374 !important; }
+
+/* color 2 - darker */
+body.color-6dd374 body.mailbox #inboxButton a {
+  background-color: #1fcc2b; }
+
+body.color-6dd374 .uibox .boxtitle,
+body.color-6dd374 #xsidebar .boxtitle :before,
+body.color-6dd374 .widescreen #messagelistheader,
+body.color-6dd374.xcalendar .ui-datepicker .ui-datepicker-header select,
+body.color-6dd374.xcalendar .ui-datepicker .ui-datepicker-header a,
+body.color-6dd374.xcalendar .ui-datepicker .ui-datepicker-header span,
+body.color-6dd374 .records-table thead tr .status span.status,
+body.color-6dd374 .records-table thead tr .flag span.flagged,
+body.color-6dd374 .records-table thead tr .attachment span.attachment,
+body.color-6dd374 .records-table thead tr .priority span.priority,
+body.color-6dd374 .records-table thead td a,
+body.color-6dd374 .records-table thead th a {
+  color: #1fcc2b !important; }
+
+/* color 3 - darkest */
+body.xdesktop.color-6dd374 a {
+  color: #2fae50; }
+
+body.color-6dd374 button,
+body.color-6dd374 input[type=button],
+body.color-6dd374 input[type=submit],
+body.color-6dd374 input[type=reset],
+body.color-6dd374 .buttons a.button,
+body.color-6dd374 #compose-attachments a.button,
+body.color-6dd374 input.button,
+body.color-6dd374 input.button:active,
+body.color-6dd374 .buttons a.button,
+body.color-6dd374 .formbuttons input.button,
+body.color-6dd374 input.button.mainaction,
+body.color-6dd374 #login-form input.button,
+body.color-6dd374 #topline .topleft a,
+body.color-6dd374 #topline .topright a,
+body.color-6dd374 #topline .topright a.button-logout,
+body.color-6dd374 #topline .topright span,
+body.color-6dd374 .username select.deco,
+body.color-6dd374 #taskbar a span.button-inner,
+body.color-6dd374 .toolbar a.button,
+body.color-6dd374 #topline,
+body.color-6dd374 .minimal #topline,
+body.color-6dd374 #main-menu a.active,
+body.color-6dd374 #taskbar a.button-calendar span.button-inner,
+body.color-6dd374 #taskbar a.button-calendar.button-selected span.button-inner,
+body.color-6dd374 ul#planner_controls li a,
+body.xmobile.color-6dd374 a.contactfieldbutton,
+body.xmobile.color-6dd374 #uploadformlink,
+body.xmobile.color-6dd374 .tablink a {
+  color: #2fae50 !important; }
+
+body.color-6dd374.xcalendar button.new-calendar,
+body.color-6dd374.xcalendar .calendar-item a:before,
+body.color-6dd374.xcalendar #calendar-grid .fc-icon {
+  color: #2fae50 !important; }
+
+/* color 4 - light */
+body.color-6dd374 .uibox,
+body.color-6dd374 #compose-content,
+body.color-6dd374 #mailview-top,
+body.color-6dd374 #mailview-bottom,
+body.color-6dd374 #messagebody p.image-attachment,
+body.color-6dd374 .records-table.fixedheader,
+body.color-6dd374 #messagelistfooter,
+body.color-6dd374 .moreheaderstoggle,
+body.color-6dd374 #messageheader,
+body.color-6dd374 #composeheaders,
+body.color-6dd374 #composeoptions,
+body.color-6dd374 #compose-attachments,
+body.color-6dd374 #compose-contacts #directorylist,
+body.color-6dd374 .listbox .boxfooter,
+body.color-6dd374 #taskbar a,
+body.color-6dd374 .minimal #taskbar a,
+body.color-6dd374 ul#planner_controls li a,
+body.color-6dd374 .boxtitle, .uibox .listing thead td,
+body.color-6dd374 .boxtitle, .uibox .listing thead th,
+body.color-6dd374.iframe h1.boxtitle,
+body.color-6dd374 #vertical-preview,
+body.color-6dd374 .widescreen #messagelistheader {
+  border-color: #bff2c3; }
+
+body.xmobile.color-6dd374 #messageheader .pagenav a.button.disabled {
+  color: #bff2c3; }
+
+/* color 5 - lighter */
+body.color-6dd374 .listbox .listitem.selected,
+body.color-6dd374 .listbox .tablink.selected,
+body.color-6dd374 .listbox .listitem.selected > a,
+body.color-6dd374 .listbox .tablink.selected > a,
+body.color-6dd374 .listing tbody tr.unfocused td,
+body.color-6dd374 .listing tbody tr.selected td,
+body.color-6dd374 .listing li.selected,
+body.color-6dd374 .listing li.selected > a,
+body.color-6dd374 #mailboxlist li.mailbox .unreadcount,
+body.xdesktop.color-6dd374 #composeoptionstoggle,
+body.xmobile.color-6dd374 #main-menu a.active {
+  background-color: #d3ffd5; }
+
+body.color-6dd374 button.button:hover,
+body.color-6dd374 a.button:hover,
+body.color-6dd374 .ui-dialog button.ui-button:hover,
+body.color-6dd374 #compose-attachments a.button:hover,
+body.color-6dd374 input.button:hover,
+body.color-6dd374 input[type=button]:hover,
+body.color-6dd374 .records-table tr.selected,
+body.color-6dd374 .records-table tr.unfocused,
+body.color-6dd374 .records-table tr.selected td,
+body.color-6dd374 .records-table tr.unfocused td,
+body.color-6dd374 a.rowLink:hover,
+body.color-6dd374 #xsidebar .boxtitle,
+body.color-6dd374 #remote-objects-message a:hover,
+body.color-6dd374.compact-message-list-always #mailview-top tr:hover,
+body.color-6dd374.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+body.xmobile.color-6dd374 #messagelist tr.selected,
+body.xmobile.color-6dd374 #messagelist tr.unfocused,
+body.xmobile.color-6dd374 #messagelist tr.selected td.date {
+  background-color: #d3ffd5 !important; }
+
+body.color-6dd374 #mailboxlist li.mailbox ul,
+body.color-6dd374 .listbox .listitem,
+body.color-6dd374 .listbox .tablink,
+body.color-6dd374 .listing tbody td,
+body.color-6dd374 .listing li {
+  border-color: #d3ffd5; }
+
+body.color-6dd374.compact-message-list-always #mailview-top tr,
+body.color-6dd374.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #d3ffd5 !important; }
+
+/* color 6 - lightest */
+body.color-6dd374 #compose-attachments a.button,
+body.color-6dd374 button.button,
+body.color-6dd374 .ui-dialog button.ui-button,
+body.color-6dd374 #remote-objects-message .button,
+body.color-6dd374 input.button,
+body.color-6dd374 input[type=button],
+body.color-6dd374 .widescreen #messagelistheader,
+body.xmobile.color-6dd374 a.contactfieldbutton,
+body.xmobile.color-6dd374 #uploadformlink {
+  background-color: #e9ffec !important; }
+
+body.color-6dd374 #composeheaders,
+body.color-6dd374 #composebodycontainer .mce-panel,
+body.color-6dd374 #taskbar a,
+body.color-6dd374 .minimal #taskbar a,
+body.color-6dd374 .moreheaderstoggle,
+body.color-6dd374 #messageheader,
+body.color-6dd374 .records-table thead td,
+body.color-6dd374 .records-table thead th,
+body.color-6dd374 input[type=button],
+body.color-6dd374 .uibox .listing thead td,
+body.color-6dd374 .uibox .listing thead th,
+body.color-6dd374 .uibox .boxtitle,
+body.color-6dd374.xcalendar .ui-datepicker .ui-datepicker-header,
+body.xdesktop.color-6dd374 .listbox,
+body.xdesktop.color-6dd374 .buttons a.button,
+body.color-6dd374 ul#planner_controls li a,
+body.color-6dd374 #messagelistfooter,
+body.color-6dd374 #mailpreviewtoggle,
+body.color-6dd374.iframe h1.boxtitle,
+body.xmobile.color-6dd374 #main-menu a {
+  background-color: #e9ffec; }
+
+body.color-6dd374 .popupmenu a:hover {
+  background-color: #e9ffec !important; }
+
+/* color 1 - dark */
+body.xmobile.color-b76dd3 .popup-close,
+body.xmobile.color-b76dd3 #mailboxlist li.mailbox a .unreadcount,
+body.xmobile.color-b76dd3 #messagelistcontainer .boxpagenav a.icon,
+body.xmobile.color-b76dd3 #messagelistcontainer .pagenav a.button,
+body.xmobile.color-b76dd3 #messagestack div,
+body.xmobile.color-b76dd3 #message-objects div a.button,
+body.xmobile.color-b76dd3 .boxfooter .listbutton {
+  background-color: #b76dd3; }
+
+body.color-b76dd3 input.switchbox-input:checked + label.switchbox,
+body.color-b76dd3 #messageheader a.button.selected {
+  background-color: #b76dd3 !important; }
+
+body.color-b76dd3 .records-table td span:before,
+body.color-b76dd3 .records-table th span:before,
+body.color-b76dd3 .records-table th a:before,
+body.color-b76dd3 .records-table thead td div:before,
+body.color-b76dd3 .records-table thead th div:before,
+body.color-b76dd3 .records-table thead td a:after,
+body.color-b76dd3 .records-table thead th a:after,
+body.color-b76dd3 .records-table div.expanded,
+body.color-b76dd3 .records-table div.collapsed,
+body.color-b76dd3 .boxfooter .listbutton.groupactions:before,
+body.color-b76dd3 #rss a,
+body.color-b76dd3 a.iconbutton:before,
+body.color-b76dd3 .minmodetoggle:before,
+body.color-b76dd3 #mailpreviewtoggle,
+body.color-b76dd3 .toolbar a.button:before,
+body.color-b76dd3 .boxfooter .listbutton.groupactions,
+body.color-b76dd3 .boxfooter .listbutton.add,
+body.color-b76dd3 .boxfooter .listbutton.delete,
+body.color-b76dd3 .boxfooter .listbutton.removegroup,
+body.color-b76dd3 .boxfooter .listbutton.addto .inner,
+body.color-b76dd3 .boxfooter .listbutton.addcc .inner,
+body.color-b76dd3 .boxfooter .listbutton.addbcc .inner,
+body.color-b76dd3 .boxfooter .countdisplay,
+body.color-b76dd3.xskin #apps-menu a.app-item > div.icon,
+body.xmobile.color-b76dd3 #folderlist-footer #quotadisplay,
+body.xmobile.color-b76dd3 #mailboxlist li.mailbox div.treetoggle,
+body.xmobile.color-b76dd3 #directorylist li.addressbook div.collapsed,
+body.xmobile.color-b76dd3 #directorylist li.addressbook div.expanded,
+body.xmobile.color-b76dd3 #main-menu a,
+body.xmobile.color-b76dd3 #full-headers .more-headers,
+body.xmobile.color-b76dd3 #attachment-list .delete,
+body.xmobile.color-b76dd3 #attachment-list .drop,
+body.xmobile.color-b76dd3 #messageheader .pagenav a.button,
+body.xmobile.color-b76dd3 #messagelist td.subject:before,
+body.xmobile.color-b76dd3 #messagelist tr.selected td.subject:before,
+body.xmobile.color-b76dd3 #messagelist tr.unfocused td.subject:before,
+body.xmobile.color-b76dd3 .folderlist li.mailbox div.treetoggle:before {
+  color: #b76dd3; }
+
+body.xmobile.color-b76dd3 .popup-close a,
+body.xmobile.color-b76dd3 .popup-box h5,
+body.xmobile.color-b76dd3 .popup-box .boxtitle,
+body.xmobile.color-b76dd3 .popup-box .boxtitle span,
+body.xmobile.color-b76dd3 #quicksearchbar .popup-close a {
+  color: #b76dd3 !important; }
+
+body.color-b76dd3 button,
+body.color-b76dd3 .button,
+body.color-b76dd3 #remote-objects-message a.button,
+body.color-b76dd3 #messageheader a.button,
+body.color-b76dd3 #messageheader .buttongroup,
+body.color-b76dd3 input[type=button],
+body.color-b76dd3 input[type=button]:hover,
+body.color-b76dd3 fieldset,
+body.color-b76dd3 a.menuselector,
+body.color-b76dd3 #topnav,
+body.color-b76dd3.minimal #topnav,
+body.color-b76dd3 #taskbar a.button-selected,
+body.color-b76dd3 .popupmenu,
+body.color-b76dd3 #messagestack div,
+body.color-b76dd3 #maillistmode.selected,
+body.color-b76dd3 #mailthreadmode.selected,
+body.color-b76dd3 #rcmKSearchpane,
+body.color-b76dd3 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+body.xdesktop.color-b76dd3 select,
+body.xmobile.color-b76dd3 #main-menu,
+body.xmobile.color-b76dd3 .popup-close,
+body.xmobile.color-b76dd3 #all-headers {
+  border-color: #b76dd3 !important; }
+
+body.xdesktop.color-b76dd3 input[type=text],
+body.xdesktop.color-b76dd3 input[type=password],
+body.xdesktop.color-b76dd3 input[type=email],
+body.xdesktop.color-b76dd3 textarea,
+body.color-b76dd3 input.button,
+body.color-b76dd3 .buttons a.button,
+body.color-b76dd3 .ui-dialog button.ui-button,
+body.xmobile.color-b76dd3 #main-menu a,
+body.color-b76dd3 input.switchbox-input:checked + label.switchbox,
+body.xmobile.color-b76dd3 a.contactfieldbutton,
+body.xmobile.color-b76dd3 #uploadformlink {
+  border: 1px solid #ddd !important;
+  border-color: #b76dd3 !important; }
+
+/* color 2 - darker */
+body.color-b76dd3 body.mailbox #inboxButton a {
+  background-color: #a51fcc; }
+
+body.color-b76dd3 .uibox .boxtitle,
+body.color-b76dd3 #xsidebar .boxtitle :before,
+body.color-b76dd3 .widescreen #messagelistheader,
+body.color-b76dd3.xcalendar .ui-datepicker .ui-datepicker-header select,
+body.color-b76dd3.xcalendar .ui-datepicker .ui-datepicker-header a,
+body.color-b76dd3.xcalendar .ui-datepicker .ui-datepicker-header span,
+body.color-b76dd3 .records-table thead tr .status span.status,
+body.color-b76dd3 .records-table thead tr .flag span.flagged,
+body.color-b76dd3 .records-table thead tr .attachment span.attachment,
+body.color-b76dd3 .records-table thead tr .priority span.priority,
+body.color-b76dd3 .records-table thead td a,
+body.color-b76dd3 .records-table thead th a {
+  color: #a51fcc !important; }
+
+/* color 3 - darkest */
+body.xdesktop.color-b76dd3 a {
+  color: #9900cc; }
+
+body.color-b76dd3 button,
+body.color-b76dd3 input[type=button],
+body.color-b76dd3 input[type=submit],
+body.color-b76dd3 input[type=reset],
+body.color-b76dd3 .buttons a.button,
+body.color-b76dd3 #compose-attachments a.button,
+body.color-b76dd3 input.button,
+body.color-b76dd3 input.button:active,
+body.color-b76dd3 .buttons a.button,
+body.color-b76dd3 .formbuttons input.button,
+body.color-b76dd3 input.button.mainaction,
+body.color-b76dd3 #login-form input.button,
+body.color-b76dd3 #topline .topleft a,
+body.color-b76dd3 #topline .topright a,
+body.color-b76dd3 #topline .topright a.button-logout,
+body.color-b76dd3 #topline .topright span,
+body.color-b76dd3 .username select.deco,
+body.color-b76dd3 #taskbar a span.button-inner,
+body.color-b76dd3 .toolbar a.button,
+body.color-b76dd3 #topline,
+body.color-b76dd3 .minimal #topline,
+body.color-b76dd3 #main-menu a.active,
+body.color-b76dd3 #taskbar a.button-calendar span.button-inner,
+body.color-b76dd3 #taskbar a.button-calendar.button-selected span.button-inner,
+body.color-b76dd3 ul#planner_controls li a,
+body.xmobile.color-b76dd3 a.contactfieldbutton,
+body.xmobile.color-b76dd3 #uploadformlink,
+body.xmobile.color-b76dd3 .tablink a {
+  color: #9900cc !important; }
+
+body.color-b76dd3.xcalendar button.new-calendar,
+body.color-b76dd3.xcalendar .calendar-item a:before,
+body.color-b76dd3.xcalendar #calendar-grid .fc-icon {
+  color: #9900cc !important; }
+
+/* color 4 - light */
+body.color-b76dd3 .uibox,
+body.color-b76dd3 #compose-content,
+body.color-b76dd3 #mailview-top,
+body.color-b76dd3 #mailview-bottom,
+body.color-b76dd3 #messagebody p.image-attachment,
+body.color-b76dd3 .records-table.fixedheader,
+body.color-b76dd3 #messagelistfooter,
+body.color-b76dd3 .moreheaderstoggle,
+body.color-b76dd3 #messageheader,
+body.color-b76dd3 #composeheaders,
+body.color-b76dd3 #composeoptions,
+body.color-b76dd3 #compose-attachments,
+body.color-b76dd3 #compose-contacts #directorylist,
+body.color-b76dd3 .listbox .boxfooter,
+body.color-b76dd3 #taskbar a,
+body.color-b76dd3 .minimal #taskbar a,
+body.color-b76dd3 ul#planner_controls li a,
+body.color-b76dd3 .boxtitle, .uibox .listing thead td,
+body.color-b76dd3 .boxtitle, .uibox .listing thead th,
+body.color-b76dd3.iframe h1.boxtitle,
+body.color-b76dd3 #vertical-preview,
+body.color-b76dd3 .widescreen #messagelistheader {
+  border-color: #e4bff2; }
+
+body.xmobile.color-b76dd3 #messageheader .pagenav a.button.disabled {
+  color: #e4bff2; }
+
+/* color 5 - lighter */
+body.color-b76dd3 .listbox .listitem.selected,
+body.color-b76dd3 .listbox .tablink.selected,
+body.color-b76dd3 .listbox .listitem.selected > a,
+body.color-b76dd3 .listbox .tablink.selected > a,
+body.color-b76dd3 .listing tbody tr.unfocused td,
+body.color-b76dd3 .listing tbody tr.selected td,
+body.color-b76dd3 .listing li.selected,
+body.color-b76dd3 .listing li.selected > a,
+body.color-b76dd3 #mailboxlist li.mailbox .unreadcount,
+body.xdesktop.color-b76dd3 #composeoptionstoggle,
+body.xmobile.color-b76dd3 #main-menu a.active {
+  background-color: #edd3ff; }
+
+body.color-b76dd3 button.button:hover,
+body.color-b76dd3 a.button:hover,
+body.color-b76dd3 .ui-dialog button.ui-button:hover,
+body.color-b76dd3 #compose-attachments a.button:hover,
+body.color-b76dd3 input.button:hover,
+body.color-b76dd3 input[type=button]:hover,
+body.color-b76dd3 .records-table tr.selected,
+body.color-b76dd3 .records-table tr.unfocused,
+body.color-b76dd3 .records-table tr.selected td,
+body.color-b76dd3 .records-table tr.unfocused td,
+body.color-b76dd3 a.rowLink:hover,
+body.color-b76dd3 #xsidebar .boxtitle,
+body.color-b76dd3 #remote-objects-message a:hover,
+body.color-b76dd3.compact-message-list-always #mailview-top tr:hover,
+body.color-b76dd3.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+body.xmobile.color-b76dd3 #messagelist tr.selected,
+body.xmobile.color-b76dd3 #messagelist tr.unfocused,
+body.xmobile.color-b76dd3 #messagelist tr.selected td.date {
+  background-color: #edd3ff !important; }
+
+body.color-b76dd3 #mailboxlist li.mailbox ul,
+body.color-b76dd3 .listbox .listitem,
+body.color-b76dd3 .listbox .tablink,
+body.color-b76dd3 .listing tbody td,
+body.color-b76dd3 .listing li {
+  border-color: #edd3ff; }
+
+body.color-b76dd3.compact-message-list-always #mailview-top tr,
+body.color-b76dd3.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #edd3ff !important; }
+
+/* color 6 - lightest */
+body.color-b76dd3 #compose-attachments a.button,
+body.color-b76dd3 button.button,
+body.color-b76dd3 .ui-dialog button.ui-button,
+body.color-b76dd3 #remote-objects-message .button,
+body.color-b76dd3 input.button,
+body.color-b76dd3 input[type=button],
+body.color-b76dd3 .widescreen #messagelistheader,
+body.xmobile.color-b76dd3 a.contactfieldbutton,
+body.xmobile.color-b76dd3 #uploadformlink {
+  background-color: #fae9ff !important; }
+
+body.color-b76dd3 #composeheaders,
+body.color-b76dd3 #composebodycontainer .mce-panel,
+body.color-b76dd3 #taskbar a,
+body.color-b76dd3 .minimal #taskbar a,
+body.color-b76dd3 .moreheaderstoggle,
+body.color-b76dd3 #messageheader,
+body.color-b76dd3 .records-table thead td,
+body.color-b76dd3 .records-table thead th,
+body.color-b76dd3 input[type=button],
+body.color-b76dd3 .uibox .listing thead td,
+body.color-b76dd3 .uibox .listing thead th,
+body.color-b76dd3 .uibox .boxtitle,
+body.color-b76dd3.xcalendar .ui-datepicker .ui-datepicker-header,
+body.xdesktop.color-b76dd3 .listbox,
+body.xdesktop.color-b76dd3 .buttons a.button,
+body.color-b76dd3 ul#planner_controls li a,
+body.color-b76dd3 #messagelistfooter,
+body.color-b76dd3 #mailpreviewtoggle,
+body.color-b76dd3.iframe h1.boxtitle,
+body.xmobile.color-b76dd3 #main-menu a {
+  background-color: #fae9ff; }
+
+body.color-b76dd3 .popupmenu a:hover {
+  background-color: #fae9ff !important; }
+
+/* color 1 - dark */
+body.xmobile.color-d3bc6d .popup-close,
+body.xmobile.color-d3bc6d #mailboxlist li.mailbox a .unreadcount,
+body.xmobile.color-d3bc6d #messagelistcontainer .boxpagenav a.icon,
+body.xmobile.color-d3bc6d #messagelistcontainer .pagenav a.button,
+body.xmobile.color-d3bc6d #messagestack div,
+body.xmobile.color-d3bc6d #message-objects div a.button,
+body.xmobile.color-d3bc6d .boxfooter .listbutton {
+  background-color: #d3bc6d; }
+
+body.color-d3bc6d input.switchbox-input:checked + label.switchbox,
+body.color-d3bc6d #messageheader a.button.selected {
+  background-color: #d3bc6d !important; }
+
+body.color-d3bc6d .records-table td span:before,
+body.color-d3bc6d .records-table th span:before,
+body.color-d3bc6d .records-table th a:before,
+body.color-d3bc6d .records-table thead td div:before,
+body.color-d3bc6d .records-table thead th div:before,
+body.color-d3bc6d .records-table thead td a:after,
+body.color-d3bc6d .records-table thead th a:after,
+body.color-d3bc6d .records-table div.expanded,
+body.color-d3bc6d .records-table div.collapsed,
+body.color-d3bc6d .boxfooter .listbutton.groupactions:before,
+body.color-d3bc6d #rss a,
+body.color-d3bc6d a.iconbutton:before,
+body.color-d3bc6d .minmodetoggle:before,
+body.color-d3bc6d #mailpreviewtoggle,
+body.color-d3bc6d .toolbar a.button:before,
+body.color-d3bc6d .boxfooter .listbutton.groupactions,
+body.color-d3bc6d .boxfooter .listbutton.add,
+body.color-d3bc6d .boxfooter .listbutton.delete,
+body.color-d3bc6d .boxfooter .listbutton.removegroup,
+body.color-d3bc6d .boxfooter .listbutton.addto .inner,
+body.color-d3bc6d .boxfooter .listbutton.addcc .inner,
+body.color-d3bc6d .boxfooter .listbutton.addbcc .inner,
+body.color-d3bc6d .boxfooter .countdisplay,
+body.color-d3bc6d.xskin #apps-menu a.app-item > div.icon,
+body.xmobile.color-d3bc6d #folderlist-footer #quotadisplay,
+body.xmobile.color-d3bc6d #mailboxlist li.mailbox div.treetoggle,
+body.xmobile.color-d3bc6d #directorylist li.addressbook div.collapsed,
+body.xmobile.color-d3bc6d #directorylist li.addressbook div.expanded,
+body.xmobile.color-d3bc6d #main-menu a,
+body.xmobile.color-d3bc6d #full-headers .more-headers,
+body.xmobile.color-d3bc6d #attachment-list .delete,
+body.xmobile.color-d3bc6d #attachment-list .drop,
+body.xmobile.color-d3bc6d #messageheader .pagenav a.button,
+body.xmobile.color-d3bc6d #messagelist td.subject:before,
+body.xmobile.color-d3bc6d #messagelist tr.selected td.subject:before,
+body.xmobile.color-d3bc6d #messagelist tr.unfocused td.subject:before,
+body.xmobile.color-d3bc6d .folderlist li.mailbox div.treetoggle:before {
+  color: #d3bc6d; }
+
+body.xmobile.color-d3bc6d .popup-close a,
+body.xmobile.color-d3bc6d .popup-box h5,
+body.xmobile.color-d3bc6d .popup-box .boxtitle,
+body.xmobile.color-d3bc6d .popup-box .boxtitle span,
+body.xmobile.color-d3bc6d #quicksearchbar .popup-close a {
+  color: #d3bc6d !important; }
+
+body.color-d3bc6d button,
+body.color-d3bc6d .button,
+body.color-d3bc6d #remote-objects-message a.button,
+body.color-d3bc6d #messageheader a.button,
+body.color-d3bc6d #messageheader .buttongroup,
+body.color-d3bc6d input[type=button],
+body.color-d3bc6d input[type=button]:hover,
+body.color-d3bc6d fieldset,
+body.color-d3bc6d a.menuselector,
+body.color-d3bc6d #topnav,
+body.color-d3bc6d.minimal #topnav,
+body.color-d3bc6d #taskbar a.button-selected,
+body.color-d3bc6d .popupmenu,
+body.color-d3bc6d #messagestack div,
+body.color-d3bc6d #maillistmode.selected,
+body.color-d3bc6d #mailthreadmode.selected,
+body.color-d3bc6d #rcmKSearchpane,
+body.color-d3bc6d .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+body.xdesktop.color-d3bc6d select,
+body.xmobile.color-d3bc6d #main-menu,
+body.xmobile.color-d3bc6d .popup-close,
+body.xmobile.color-d3bc6d #all-headers {
+  border-color: #d3bc6d !important; }
+
+body.xdesktop.color-d3bc6d input[type=text],
+body.xdesktop.color-d3bc6d input[type=password],
+body.xdesktop.color-d3bc6d input[type=email],
+body.xdesktop.color-d3bc6d textarea,
+body.color-d3bc6d input.button,
+body.color-d3bc6d .buttons a.button,
+body.color-d3bc6d .ui-dialog button.ui-button,
+body.xmobile.color-d3bc6d #main-menu a,
+body.color-d3bc6d input.switchbox-input:checked + label.switchbox,
+body.xmobile.color-d3bc6d a.contactfieldbutton,
+body.xmobile.color-d3bc6d #uploadformlink {
+  border: 1px solid #ddd !important;
+  border-color: #d3bc6d !important; }
+
+/* color 2 - darker */
+body.color-d3bc6d body.mailbox #inboxButton a {
+  background-color: #cca51f; }
+
+body.color-d3bc6d .uibox .boxtitle,
+body.color-d3bc6d #xsidebar .boxtitle :before,
+body.color-d3bc6d .widescreen #messagelistheader,
+body.color-d3bc6d.xcalendar .ui-datepicker .ui-datepicker-header select,
+body.color-d3bc6d.xcalendar .ui-datepicker .ui-datepicker-header a,
+body.color-d3bc6d.xcalendar .ui-datepicker .ui-datepicker-header span,
+body.color-d3bc6d .records-table thead tr .status span.status,
+body.color-d3bc6d .records-table thead tr .flag span.flagged,
+body.color-d3bc6d .records-table thead tr .attachment span.attachment,
+body.color-d3bc6d .records-table thead tr .priority span.priority,
+body.color-d3bc6d .records-table thead td a,
+body.color-d3bc6d .records-table thead th a {
+  color: #cca51f !important; }
+
+/* color 3 - darkest */
+body.xdesktop.color-d3bc6d a {
+  color: #c09616; }
+
+body.color-d3bc6d button,
+body.color-d3bc6d input[type=button],
+body.color-d3bc6d input[type=submit],
+body.color-d3bc6d input[type=reset],
+body.color-d3bc6d .buttons a.button,
+body.color-d3bc6d #compose-attachments a.button,
+body.color-d3bc6d input.button,
+body.color-d3bc6d input.button:active,
+body.color-d3bc6d .buttons a.button,
+body.color-d3bc6d .formbuttons input.button,
+body.color-d3bc6d input.button.mainaction,
+body.color-d3bc6d #login-form input.button,
+body.color-d3bc6d #topline .topleft a,
+body.color-d3bc6d #topline .topright a,
+body.color-d3bc6d #topline .topright a.button-logout,
+body.color-d3bc6d #topline .topright span,
+body.color-d3bc6d .username select.deco,
+body.color-d3bc6d #taskbar a span.button-inner,
+body.color-d3bc6d .toolbar a.button,
+body.color-d3bc6d #topline,
+body.color-d3bc6d .minimal #topline,
+body.color-d3bc6d #main-menu a.active,
+body.color-d3bc6d #taskbar a.button-calendar span.button-inner,
+body.color-d3bc6d #taskbar a.button-calendar.button-selected span.button-inner,
+body.color-d3bc6d ul#planner_controls li a,
+body.xmobile.color-d3bc6d a.contactfieldbutton,
+body.xmobile.color-d3bc6d #uploadformlink,
+body.xmobile.color-d3bc6d .tablink a {
+  color: #c09616 !important; }
+
+body.color-d3bc6d.xcalendar button.new-calendar,
+body.color-d3bc6d.xcalendar .calendar-item a:before,
+body.color-d3bc6d.xcalendar #calendar-grid .fc-icon {
+  color: #c09616 !important; }
+
+/* color 4 - light */
+body.color-d3bc6d .uibox,
+body.color-d3bc6d #compose-content,
+body.color-d3bc6d #mailview-top,
+body.color-d3bc6d #mailview-bottom,
+body.color-d3bc6d #messagebody p.image-attachment,
+body.color-d3bc6d .records-table.fixedheader,
+body.color-d3bc6d #messagelistfooter,
+body.color-d3bc6d .moreheaderstoggle,
+body.color-d3bc6d #messageheader,
+body.color-d3bc6d #composeheaders,
+body.color-d3bc6d #composeoptions,
+body.color-d3bc6d #compose-attachments,
+body.color-d3bc6d #compose-contacts #directorylist,
+body.color-d3bc6d .listbox .boxfooter,
+body.color-d3bc6d #taskbar a,
+body.color-d3bc6d .minimal #taskbar a,
+body.color-d3bc6d ul#planner_controls li a,
+body.color-d3bc6d .boxtitle, .uibox .listing thead td,
+body.color-d3bc6d .boxtitle, .uibox .listing thead th,
+body.color-d3bc6d.iframe h1.boxtitle,
+body.color-d3bc6d #vertical-preview,
+body.color-d3bc6d .widescreen #messagelistheader {
+  border-color: #f2e4bf; }
+
+body.xmobile.color-d3bc6d #messageheader .pagenav a.button.disabled {
+  color: #f2e4bf; }
+
+/* color 5 - lighter */
+body.color-d3bc6d .listbox .listitem.selected,
+body.color-d3bc6d .listbox .tablink.selected,
+body.color-d3bc6d .listbox .listitem.selected > a,
+body.color-d3bc6d .listbox .tablink.selected > a,
+body.color-d3bc6d .listing tbody tr.unfocused td,
+body.color-d3bc6d .listing tbody tr.selected td,
+body.color-d3bc6d .listing li.selected,
+body.color-d3bc6d .listing li.selected > a,
+body.color-d3bc6d #mailboxlist li.mailbox .unreadcount,
+body.xdesktop.color-d3bc6d #composeoptionstoggle,
+body.xmobile.color-d3bc6d #main-menu a.active {
+  background-color: #fff5d3; }
+
+body.color-d3bc6d button.button:hover,
+body.color-d3bc6d a.button:hover,
+body.color-d3bc6d .ui-dialog button.ui-button:hover,
+body.color-d3bc6d #compose-attachments a.button:hover,
+body.color-d3bc6d input.button:hover,
+body.color-d3bc6d input[type=button]:hover,
+body.color-d3bc6d .records-table tr.selected,
+body.color-d3bc6d .records-table tr.unfocused,
+body.color-d3bc6d .records-table tr.selected td,
+body.color-d3bc6d .records-table tr.unfocused td,
+body.color-d3bc6d a.rowLink:hover,
+body.color-d3bc6d #xsidebar .boxtitle,
+body.color-d3bc6d #remote-objects-message a:hover,
+body.color-d3bc6d.compact-message-list-always #mailview-top tr:hover,
+body.color-d3bc6d.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+body.xmobile.color-d3bc6d #messagelist tr.selected,
+body.xmobile.color-d3bc6d #messagelist tr.unfocused,
+body.xmobile.color-d3bc6d #messagelist tr.selected td.date {
+  background-color: #fff5d3 !important; }
+
+body.color-d3bc6d #mailboxlist li.mailbox ul,
+body.color-d3bc6d .listbox .listitem,
+body.color-d3bc6d .listbox .tablink,
+body.color-d3bc6d .listing tbody td,
+body.color-d3bc6d .listing li {
+  border-color: #fff5d3; }
+
+body.color-d3bc6d.compact-message-list-always #mailview-top tr,
+body.color-d3bc6d.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #fff5d3 !important; }
+
+/* color 6 - lightest */
+body.color-d3bc6d #compose-attachments a.button,
+body.color-d3bc6d button.button,
+body.color-d3bc6d .ui-dialog button.ui-button,
+body.color-d3bc6d #remote-objects-message .button,
+body.color-d3bc6d input.button,
+body.color-d3bc6d input[type=button],
+body.color-d3bc6d .widescreen #messagelistheader,
+body.xmobile.color-d3bc6d a.contactfieldbutton,
+body.xmobile.color-d3bc6d #uploadformlink {
+  background-color: #fffae9 !important; }
+
+body.color-d3bc6d #composeheaders,
+body.color-d3bc6d #composebodycontainer .mce-panel,
+body.color-d3bc6d #taskbar a,
+body.color-d3bc6d .minimal #taskbar a,
+body.color-d3bc6d .moreheaderstoggle,
+body.color-d3bc6d #messageheader,
+body.color-d3bc6d .records-table thead td,
+body.color-d3bc6d .records-table thead th,
+body.color-d3bc6d input[type=button],
+body.color-d3bc6d .uibox .listing thead td,
+body.color-d3bc6d .uibox .listing thead th,
+body.color-d3bc6d .uibox .boxtitle,
+body.color-d3bc6d.xcalendar .ui-datepicker .ui-datepicker-header,
+body.xdesktop.color-d3bc6d .listbox,
+body.xdesktop.color-d3bc6d .buttons a.button,
+body.color-d3bc6d ul#planner_controls li a,
+body.color-d3bc6d #messagelistfooter,
+body.color-d3bc6d #mailpreviewtoggle,
+body.color-d3bc6d.iframe h1.boxtitle,
+body.xmobile.color-d3bc6d #main-menu a {
+  background-color: #fffae9; }
+
+body.color-d3bc6d .popupmenu a:hover {
+  background-color: #fffae9 !important; }
+
+/* color 1 - dark */
+body.xmobile.color-ce7070 .popup-close,
+body.xmobile.color-ce7070 #mailboxlist li.mailbox a .unreadcount,
+body.xmobile.color-ce7070 #messagelistcontainer .boxpagenav a.icon,
+body.xmobile.color-ce7070 #messagelistcontainer .pagenav a.button,
+body.xmobile.color-ce7070 #messagestack div,
+body.xmobile.color-ce7070 #message-objects div a.button,
+body.xmobile.color-ce7070 .boxfooter .listbutton {
+  background-color: #ce7070; }
+
+body.color-ce7070 input.switchbox-input:checked + label.switchbox,
+body.color-ce7070 #messageheader a.button.selected {
+  background-color: #ce7070 !important; }
+
+body.color-ce7070 .records-table td span:before,
+body.color-ce7070 .records-table th span:before,
+body.color-ce7070 .records-table th a:before,
+body.color-ce7070 .records-table thead td div:before,
+body.color-ce7070 .records-table thead th div:before,
+body.color-ce7070 .records-table thead td a:after,
+body.color-ce7070 .records-table thead th a:after,
+body.color-ce7070 .records-table div.expanded,
+body.color-ce7070 .records-table div.collapsed,
+body.color-ce7070 .boxfooter .listbutton.groupactions:before,
+body.color-ce7070 #rss a,
+body.color-ce7070 a.iconbutton:before,
+body.color-ce7070 .minmodetoggle:before,
+body.color-ce7070 #mailpreviewtoggle,
+body.color-ce7070 .toolbar a.button:before,
+body.color-ce7070 .boxfooter .listbutton.groupactions,
+body.color-ce7070 .boxfooter .listbutton.add,
+body.color-ce7070 .boxfooter .listbutton.delete,
+body.color-ce7070 .boxfooter .listbutton.removegroup,
+body.color-ce7070 .boxfooter .listbutton.addto .inner,
+body.color-ce7070 .boxfooter .listbutton.addcc .inner,
+body.color-ce7070 .boxfooter .listbutton.addbcc .inner,
+body.color-ce7070 .boxfooter .countdisplay,
+body.color-ce7070.xskin #apps-menu a.app-item > div.icon,
+body.xmobile.color-ce7070 #folderlist-footer #quotadisplay,
+body.xmobile.color-ce7070 #mailboxlist li.mailbox div.treetoggle,
+body.xmobile.color-ce7070 #directorylist li.addressbook div.collapsed,
+body.xmobile.color-ce7070 #directorylist li.addressbook div.expanded,
+body.xmobile.color-ce7070 #main-menu a,
+body.xmobile.color-ce7070 #full-headers .more-headers,
+body.xmobile.color-ce7070 #attachment-list .delete,
+body.xmobile.color-ce7070 #attachment-list .drop,
+body.xmobile.color-ce7070 #messageheader .pagenav a.button,
+body.xmobile.color-ce7070 #messagelist td.subject:before,
+body.xmobile.color-ce7070 #messagelist tr.selected td.subject:before,
+body.xmobile.color-ce7070 #messagelist tr.unfocused td.subject:before,
+body.xmobile.color-ce7070 .folderlist li.mailbox div.treetoggle:before {
+  color: #ce7070; }
+
+body.xmobile.color-ce7070 .popup-close a,
+body.xmobile.color-ce7070 .popup-box h5,
+body.xmobile.color-ce7070 .popup-box .boxtitle,
+body.xmobile.color-ce7070 .popup-box .boxtitle span,
+body.xmobile.color-ce7070 #quicksearchbar .popup-close a {
+  color: #ce7070 !important; }
+
+body.color-ce7070 button,
+body.color-ce7070 .button,
+body.color-ce7070 #remote-objects-message a.button,
+body.color-ce7070 #messageheader a.button,
+body.color-ce7070 #messageheader .buttongroup,
+body.color-ce7070 input[type=button],
+body.color-ce7070 input[type=button]:hover,
+body.color-ce7070 fieldset,
+body.color-ce7070 a.menuselector,
+body.color-ce7070 #topnav,
+body.color-ce7070.minimal #topnav,
+body.color-ce7070 #taskbar a.button-selected,
+body.color-ce7070 .popupmenu,
+body.color-ce7070 #messagestack div,
+body.color-ce7070 #maillistmode.selected,
+body.color-ce7070 #mailthreadmode.selected,
+body.color-ce7070 #rcmKSearchpane,
+body.color-ce7070 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+body.xdesktop.color-ce7070 select,
+body.xmobile.color-ce7070 #main-menu,
+body.xmobile.color-ce7070 .popup-close,
+body.xmobile.color-ce7070 #all-headers {
+  border-color: #ce7070 !important; }
+
+body.xdesktop.color-ce7070 input[type=text],
+body.xdesktop.color-ce7070 input[type=password],
+body.xdesktop.color-ce7070 input[type=email],
+body.xdesktop.color-ce7070 textarea,
+body.color-ce7070 input.button,
+body.color-ce7070 .buttons a.button,
+body.color-ce7070 .ui-dialog button.ui-button,
+body.xmobile.color-ce7070 #main-menu a,
+body.color-ce7070 input.switchbox-input:checked + label.switchbox,
+body.xmobile.color-ce7070 a.contactfieldbutton,
+body.xmobile.color-ce7070 #uploadformlink {
+  border: 1px solid #ddd !important;
+  border-color: #ce7070 !important; }
+
+/* color 2 - darker */
+body.color-ce7070 body.mailbox #inboxButton a {
+  background-color: #970000; }
+
+body.color-ce7070 .uibox .boxtitle,
+body.color-ce7070 #xsidebar .boxtitle :before,
+body.color-ce7070 .widescreen #messagelistheader,
+body.color-ce7070.xcalendar .ui-datepicker .ui-datepicker-header select,
+body.color-ce7070.xcalendar .ui-datepicker .ui-datepicker-header a,
+body.color-ce7070.xcalendar .ui-datepicker .ui-datepicker-header span,
+body.color-ce7070 .records-table thead tr .status span.status,
+body.color-ce7070 .records-table thead tr .flag span.flagged,
+body.color-ce7070 .records-table thead tr .attachment span.attachment,
+body.color-ce7070 .records-table thead tr .priority span.priority,
+body.color-ce7070 .records-table thead td a,
+body.color-ce7070 .records-table thead th a {
+  color: #970000 !important; }
+
+/* color 3 - darkest */
+body.xdesktop.color-ce7070 a {
+  color: #cc1f1f; }
+
+body.color-ce7070 button,
+body.color-ce7070 input[type=button],
+body.color-ce7070 input[type=submit],
+body.color-ce7070 input[type=reset],
+body.color-ce7070 .buttons a.button,
+body.color-ce7070 #compose-attachments a.button,
+body.color-ce7070 input.button,
+body.color-ce7070 input.button:active,
+body.color-ce7070 .buttons a.button,
+body.color-ce7070 .formbuttons input.button,
+body.color-ce7070 input.button.mainaction,
+body.color-ce7070 #login-form input.button,
+body.color-ce7070 #topline .topleft a,
+body.color-ce7070 #topline .topright a,
+body.color-ce7070 #topline .topright a.button-logout,
+body.color-ce7070 #topline .topright span,
+body.color-ce7070 .username select.deco,
+body.color-ce7070 #taskbar a span.button-inner,
+body.color-ce7070 .toolbar a.button,
+body.color-ce7070 #topline,
+body.color-ce7070 .minimal #topline,
+body.color-ce7070 #main-menu a.active,
+body.color-ce7070 #taskbar a.button-calendar span.button-inner,
+body.color-ce7070 #taskbar a.button-calendar.button-selected span.button-inner,
+body.color-ce7070 ul#planner_controls li a,
+body.xmobile.color-ce7070 a.contactfieldbutton,
+body.xmobile.color-ce7070 #uploadformlink,
+body.xmobile.color-ce7070 .tablink a {
+  color: #cc1f1f !important; }
+
+body.color-ce7070.xcalendar button.new-calendar,
+body.color-ce7070.xcalendar .calendar-item a:before,
+body.color-ce7070.xcalendar #calendar-grid .fc-icon {
+  color: #cc1f1f !important; }
+
+/* color 4 - light */
+body.color-ce7070 .uibox,
+body.color-ce7070 #compose-content,
+body.color-ce7070 #mailview-top,
+body.color-ce7070 #mailview-bottom,
+body.color-ce7070 #messagebody p.image-attachment,
+body.color-ce7070 .records-table.fixedheader,
+body.color-ce7070 #messagelistfooter,
+body.color-ce7070 .moreheaderstoggle,
+body.color-ce7070 #messageheader,
+body.color-ce7070 #composeheaders,
+body.color-ce7070 #composeoptions,
+body.color-ce7070 #compose-attachments,
+body.color-ce7070 #compose-contacts #directorylist,
+body.color-ce7070 .listbox .boxfooter,
+body.color-ce7070 #taskbar a,
+body.color-ce7070 .minimal #taskbar a,
+body.color-ce7070 ul#planner_controls li a,
+body.color-ce7070 .boxtitle, .uibox .listing thead td,
+body.color-ce7070 .boxtitle, .uibox .listing thead th,
+body.color-ce7070.iframe h1.boxtitle,
+body.color-ce7070 #vertical-preview,
+body.color-ce7070 .widescreen #messagelistheader {
+  border-color: #f8d7d7; }
+
+body.xmobile.color-ce7070 #messageheader .pagenav a.button.disabled {
+  color: #f8d7d7; }
+
+/* color 5 - lighter */
+body.color-ce7070 .listbox .listitem.selected,
+body.color-ce7070 .listbox .tablink.selected,
+body.color-ce7070 .listbox .listitem.selected > a,
+body.color-ce7070 .listbox .tablink.selected > a,
+body.color-ce7070 .listing tbody tr.unfocused td,
+body.color-ce7070 .listing tbody tr.selected td,
+body.color-ce7070 .listing li.selected,
+body.color-ce7070 .listing li.selected > a,
+body.color-ce7070 #mailboxlist li.mailbox .unreadcount,
+body.xdesktop.color-ce7070 #composeoptionstoggle,
+body.xmobile.color-ce7070 #main-menu a.active {
+  background-color: #ffd3d3; }
+
+body.color-ce7070 button.button:hover,
+body.color-ce7070 a.button:hover,
+body.color-ce7070 .ui-dialog button.ui-button:hover,
+body.color-ce7070 #compose-attachments a.button:hover,
+body.color-ce7070 input.button:hover,
+body.color-ce7070 input[type=button]:hover,
+body.color-ce7070 .records-table tr.selected,
+body.color-ce7070 .records-table tr.unfocused,
+body.color-ce7070 .records-table tr.selected td,
+body.color-ce7070 .records-table tr.unfocused td,
+body.color-ce7070 a.rowLink:hover,
+body.color-ce7070 #xsidebar .boxtitle,
+body.color-ce7070 #remote-objects-message a:hover,
+body.color-ce7070.compact-message-list-always #mailview-top tr:hover,
+body.color-ce7070.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+body.xmobile.color-ce7070 #messagelist tr.selected,
+body.xmobile.color-ce7070 #messagelist tr.unfocused,
+body.xmobile.color-ce7070 #messagelist tr.selected td.date {
+  background-color: #ffd3d3 !important; }
+
+body.color-ce7070 #mailboxlist li.mailbox ul,
+body.color-ce7070 .listbox .listitem,
+body.color-ce7070 .listbox .tablink,
+body.color-ce7070 .listing tbody td,
+body.color-ce7070 .listing li {
+  border-color: #ffd3d3; }
+
+body.color-ce7070.compact-message-list-always #mailview-top tr,
+body.color-ce7070.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #ffd3d3 !important; }
+
+/* color 6 - lightest */
+body.color-ce7070 #compose-attachments a.button,
+body.color-ce7070 button.button,
+body.color-ce7070 .ui-dialog button.ui-button,
+body.color-ce7070 #remote-objects-message .button,
+body.color-ce7070 input.button,
+body.color-ce7070 input[type=button],
+body.color-ce7070 .widescreen #messagelistheader,
+body.xmobile.color-ce7070 a.contactfieldbutton,
+body.xmobile.color-ce7070 #uploadformlink {
+  background-color: #feefef !important; }
+
+body.color-ce7070 #composeheaders,
+body.color-ce7070 #composebodycontainer .mce-panel,
+body.color-ce7070 #taskbar a,
+body.color-ce7070 .minimal #taskbar a,
+body.color-ce7070 .moreheaderstoggle,
+body.color-ce7070 #messageheader,
+body.color-ce7070 .records-table thead td,
+body.color-ce7070 .records-table thead th,
+body.color-ce7070 input[type=button],
+body.color-ce7070 .uibox .listing thead td,
+body.color-ce7070 .uibox .listing thead th,
+body.color-ce7070 .uibox .boxtitle,
+body.color-ce7070.xcalendar .ui-datepicker .ui-datepicker-header,
+body.xdesktop.color-ce7070 .listbox,
+body.xdesktop.color-ce7070 .buttons a.button,
+body.color-ce7070 ul#planner_controls li a,
+body.color-ce7070 #messagelistfooter,
+body.color-ce7070 #mailpreviewtoggle,
+body.color-ce7070.iframe h1.boxtitle,
+body.xmobile.color-ce7070 #main-menu a {
+  background-color: #feefef; }
+
+body.color-ce7070 .popupmenu a:hover {
+  background-color: #feefef !important; }
+
+/*# sourceMappingURL=desktop.css.map */

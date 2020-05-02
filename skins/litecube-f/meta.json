@@ -1,0 +1,7 @@
+{
+    "name": "Litecube-f",
+    "author": "Roundcube Plus (https://roundcubeplus.com)",
+    "license": "Free for personal and non-commercial use",
+    "license-url": "",
+    "extends": "larry"
+}

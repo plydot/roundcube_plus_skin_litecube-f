@@ -1,0 +1,196 @@
+// user option: font family
+html.xfont-family-arial {
+    body, button, input, optgroup, select, textarea, .popover {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+html.xfont-family-courier {
+    body, button, input, optgroup, select, textarea, .popover {
+        font-family: "Courier New", Courier, monospace;
+    }
+}
+
+html.xfont-family-times {
+    body, button, input, optgroup, select, textarea, .popover {
+        font-family: "Times New Roman", Times, serif;
+    }
+}
+
+// loaded by the elastic skin
+html.xfont-family-rotobo {
+    body, button, input, optgroup, select, textarea, .popover {
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cairo&subset=latin-ext');
+html.xfont-family-cairo {
+    body, button, input, optgroup, select, textarea, .popover {
+        font-family: 'Cairo', sans-serif;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&subset=latin-ext');
+html.xfont-family-montserrat {
+    body, button, input, optgroup, select, textarea, .popover {
+         font-family: 'Montserrat Alternates', sans-serif;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Sarala&subset=latin-ext');
+html.xfont-family-sarala {
+    body, button, input, optgroup, select, textarea, .popover {
+        font-family: 'Sarala', sans-serif;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quattrocento&subset=latin-ext');
+html.xfont-family-quattrocento {
+    body, button, input, optgroup, select, textarea, .popover {
+        font-family: 'Quattrocento', serif;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merienda&subset=latin-ext');
+html.xfont-family-merienda {
+    body, button, input, optgroup, select, textarea, .popover {
+        font-family: 'Merienda', cursive;
+    }
+}
+
+// user option: font thickness
+html.xthick-font-yes body * {
+    font-weight: bold !important;
+}
+
+// user option: font size
+html { font-size: 14px; }
+html.xfont-size-xs { font-size: 12px; }
+html.xfont-size-s { font-size: 13px; }
+html.xfont-size-l { font-size: 15px; }
+html.xfont-size-xl { font-size: 16px; }
+
+// user option: icons in lists
+body.xlist-icons-no {
+    .scroller .listing.iconized li > a:before,
+    .scroller .listing.iconized tr > td.section:before,
+    .scroller .listing.iconized tr.contact > td:before,
+    .scroller .folderlist li > a:before,
+    .popupmenu:not(#spell-menu) .listing a:before {
+        display: none !important;
+    }
+}
+
+// user option: icons on buttons
+body.xbutton-icons-no button.btn {
+    &:not(.ui-dialog-titlebar-close):before {
+        display: none !important;
+    }
+}
+
+// skin option: normal (not bold) header font
+body.xnormal-header-font {
+    #layout > div > .header,
+    #layout > div > .footer,
+    .folderlist li.mailbox .unreadcount,
+    #sidebar-calendar .ui-datepicker select {
+        font-weight: normal;
+    }
+}
+
+// skin option: inverted colors on header
+body.xinverted-header-colors {
+    #messagelist-header,
+    #layout > div > .header {
+        border-bottom: none;
+    }
+}
+
+// skin option: no icons on taskbar
+@media screen and (min-width: 480px) {
+    body.xno-taskbar-icons {
+        #taskmenu a {
+            height: auto;
+            padding: 0;
+            height: 36px;
+            font-size: 1rem;
+
+            &:before {
+                line-height: 36px;
+            }
+
+            span.inner {
+                display: none;
+            }
+        }
+    }
+}
+
+// skin option: no border radius
+body.xno-border-radius {
+    * :not(.spinner) {
+        border-radius: 0 !important;
+    }
+}
+
+// skin option: no about link
+body.xno-about-link #taskmenu a.about {
+    display: none !important;
+}
+
+// skin option: inverted menu
+body.xinverted-menu {
+    #sidebar-calendar .ui-datepicker {
+        border-left: 1px solid #ddd !important;
+        border-right: 1px solid #ddd !important;
+    }
+
+    .header .listing li {
+        border: none;
+    }
+
+    #layout-sidebar,
+    #layout-list,
+    #layout-content {
+        border: none !important;
+
+        .iframe-wrapper,
+        .searchbar,
+        .footer,
+        .scroller {
+            border-left: 1px solid #ddd;
+        }
+
+        #calendar-list-container {
+            border-right: 1px solid #ddd;
+        }
+    }
+
+    #layout > div.sidebar {
+        .pagenav,
+        .scroller,
+        .footer {
+            border-left: 1px solid #ddd;
+        }
+    }
+
+    #layout > #layout-menu {
+        &,
+        #taskmenu .action-buttons a {
+            background-color: #F4F4F4 !important;
+        }
+
+        #taskmenu a {
+            color: #333 !important;
+            background-color: transparent !important;
+
+            &.selected,
+            &.selected:hover,
+            &:hover {
+                background-color: #dedede !important;
+            }
+        }
+    }
+}
+

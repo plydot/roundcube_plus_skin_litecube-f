@@ -1,0 +1,94 @@
+@mixin style($char, $size: false, $important: false) {
+    font-family: IconFont !important;
+    font-weight: normal !important;
+    @if $size {
+        font-size: #{$size}em !important;
+    }
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    @if $important {
+        content: $char !important;
+    } @else {
+        content: $char;
+    }
+}
+
+// This function converts the decimal icon position in the font as specified in icon_map to the actual unicode character
+// based on the $range variable.
+// The icons in the font file are located in the private character area starting at index 60,000. The icon batches
+// start every 200 characters, so the first batch ($range: 0) will map to 60,000 + (0 * 200) = 60,000, the second batch
+// ($range: 1) will map to 60,200, etc.
+@function icon($int) {
+    $int: $int + 60000 + ($range * 200);
+    $hexVals: "A" "B" "C" "D" "E" "F";
+    $base: 16;
+    $quotient: $int;
+    $result: "";
+    @if $int == 0 {
+        $result: "00";
+    }
+    @while $quotient != 0 {
+        $mod: $quotient % $base;
+        $quotient: floor($quotient / $base);
+        @if $mod > 9 {
+            $mod: nth($hexVals, $mod - 9);
+        }
+        @if $int < $base {
+            $result: "0" + $mod;
+        } @else {
+            $result: $mod + $result;
+        }
+    }
+    @return #{"\"\\"}#{$result + "\""};
+}
+
+@function hex-to-dec($string) {
+    $hex: "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" "a" "b" "c" "d" "e" "f";
+    $string: to-lower-case($string);
+    $length: str-length($string);
+
+    $dec: 0;
+    @for $i from 1 through $length {
+    $factor: 1 + (15 * ($length - $i));
+        $index: index($hex, str-slice($string, $i, $i));
+        $dec: $dec + $factor * ($index - 1);
+    }
+
+    @return $dec;
+}
+
+@function dec-to-hex($d) {
+    $hexVals: "a" "b" "c" "d" "e" "f";
+    $base: 16;
+    $quotient: $d;
+    $result: "";
+    @if $d == 0 {
+        $result: "00";
+    }
+    @while $quotient != 0 {
+        $mod: $quotient % $base;
+        $quotient: floor($quotient / $base);
+        @if $mod > 9 {
+            $mod: nth($hexVals, $mod - 9);
+        }
+        @if $d < $base {
+            $result: "0" + $mod;
+        } @else {
+            $result: $mod + $result;
+        }
+    }
+    @return $result;
+}
+
+@function hex-to-color($string) {
+    @return rgb(
+        hex-to-dec(str-slice($string, 1, 2)),
+        hex-to-dec(str-slice($string, 3, 4)),
+        hex-to-dec(str-slice($string, 5, 6))
+    );
+}
+
+@function color-to-hex($color) {
+    @return dec-to-hex(red($color)) + dec-to-hex(green($color)) + dec-to-hex(blue($color))
+}

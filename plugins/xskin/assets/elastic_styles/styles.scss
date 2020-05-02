@@ -1,0 +1,160 @@
+@import "options";
+
+.btn {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+// gray out disabled dialog buttons
+.xelastic div.ui-dialog-buttonset button.btn:disabled {
+    background-color: #aaa !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+#layout > div > .header, #layout > div > .header a.button,
+body .popover-body .toolbar.listing a,
+body .popover-body .toolbar a {
+    color: #333 !important;
+}
+
+body .ui-dialog .ui-dialog-titlebar-close {
+    &, &:hover {
+        color: #333 !important;
+        background: transparent !important;
+    }
+}
+
+.popover {
+    font-size: 1rem;
+}
+
+.login-page #vendor-branding {
+    position: fixed;
+    bottom: 5px;
+    right: 8px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px !important;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1em;
+
+    &:hover {
+        background: #cc0000;
+    }
+}
+
+.skin_look_and_feel {
+    .color-box {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        margin: 0 4px 4px 0;
+        cursor: pointer;
+    }
+
+    .xsave-hint {
+        display: none;
+
+        &:before {
+            margin-right: 6px;
+        }
+    }
+}
+
+// remove right border from lists
+html:not(.touch) .listing li>a:focus,
+html:not(.touch) .listing.focus tbody tr.focused>td:first-child,
+html:not(.touch) .listing.focus:not(.withselection) tbody tr.focused>td.selection+td {
+    border-left-color: transparent;
+}
+
+// correct icon positions and colors
+.popover-body :before {
+    position: relative;
+    top: 1px;
+}
+
+.input-group-text.icon:before {
+    color: #333;
+}
+
+.xicons-outlined {
+    .input-group-text.icon:before,
+    .popover-body :before {
+        top: 2px;
+    }
+
+    .popover-header a.icon:before {
+        position: relative;
+        top: 2px;
+    }
+}
+
+// checkboxes
+.custom-switch .custom-control-input {
+    &:focus:not(:checked) ~ .custom-control-label::before {
+        border-color: #adb5bd;
+    }
+
+    &:focus ~ .custom-control-label::before {
+        box-shadow: none !important;
+    }
+
+    &:checked~.custom-control-label::before { // overwrite this in skin colors
+        border-color: #888;
+        background-color: #888;
+    }
+}
+
+// popupmenu (used in larry and still in some plugins)
+.popupmenu {
+    border: 1px solid #d4dbde;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            border-bottom: 1px solid #f1f3f4;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            a {
+                display: block;
+                padding: 5px 10px;
+                color: #333;
+
+                &:hover {
+                    background: #eee;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #button-apps span.inner {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #taskmenu a:focus {
+        background-color: transparent !important;
+    }
+}
